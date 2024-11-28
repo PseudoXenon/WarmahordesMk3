@@ -1,0 +1,2017 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="8446-a691-f0af-e1a3" name="Cryx" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="93b2-93db-c4ae-6972" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <categoryEntries>
+    <categoryEntry id="44e3-d6a5-0e77-e9ce" name="Black Industries" hidden="false"/>
+    <categoryEntry id="f1ba-8a4a-2f62-77d9" name="Dark Host" hidden="false"/>
+    <categoryEntry id="0b5b-c09f-b2ee-58b3" name="The Ghost Fleet" hidden="false"/>
+    <categoryEntry id="7d5e-65be-11f2-c79b" name="Scourge of the broken coast" hidden="false"/>
+    <categoryEntry id="10d5-4d41-10b8-14c5" name="Theme Force" hidden="false"/>
+  </categoryEntries>
+  <forceEntries>
+    <forceEntry id="036d-449e-6f11-1242" name="Cryx" hidden="false">
+      <categoryLinks>
+        <categoryLink id="8c5e-5d3a-1e38-b964" name="Warlock/Warcaster" hidden="false" targetId="2c8c-9345-8aba-e745" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6bc2-4481-562f-f6a8" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="c94d-8e4c-f63c-01d6" name="Warjack/Warbeast" hidden="false" targetId="8bb5-6ce9-7bb9-f76c" primary="false"/>
+        <categoryLink id="6323-f420-d775-57f8" name="Unit" hidden="false" targetId="ab0d-9ec7-c53b-9de3" primary="false"/>
+        <categoryLink id="1d67-fec1-e5ab-d7bb" name="Solo" hidden="false" targetId="f7c7-5df0-843d-8db1" primary="false"/>
+        <categoryLink id="493f-444e-201c-65b5" name="Battle Engine" hidden="false" targetId="f1df-79ff-5215-b16d" primary="false"/>
+        <categoryLink id="662a-7526-4d3a-85bc" name="Theme Force" hidden="false" targetId="10d5-4d41-10b8-14c5" primary="false"/>
+      </categoryLinks>
+    </forceEntry>
+  </forceEntries>
+  <selectionEntries>
+    <selectionEntry id="cd92-d1dd-2614-afcb" name="Bane Witch Agathia" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="decrement" field="4490-cdb1-5704-8ea7" value="29.0"/>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="6a89-4fc9-947a-aa72" name="Warlock/Warcaster" hidden="false" targetId="2c8c-9345-8aba-e745" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="c1ed-d4bb-bffe-fd78" name="Warjacks" hidden="false" collective="false" import="true" targetId="6d45-8257-f714-5482" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5169-a524-2fd3-8216" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="c405-63a3-cca9-94a7" name="Warcaster/Warlock attachments" hidden="false" collective="false" import="true" targetId="99b8-0416-a421-d2c1" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="119c-ada6-5c6a-7d0e" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5397-1f9a-6dad-2bcb" name="Litch Lord Terminus" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="decrement" field="4490-cdb1-5704-8ea7" value="29.0"/>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="c7b4-f40a-e251-7ef5" name="Warlock/Warcaster" hidden="false" targetId="2c8c-9345-8aba-e745" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="2a05-3555-c4ec-2480" name="Warcaster/Warlock attachments" hidden="false" collective="false" import="true" targetId="99b8-0416-a421-d2c1" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="520a-bd9c-870d-163b" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="e851-b42a-c56a-1a5e" name="Warjacks" hidden="false" collective="false" import="true" targetId="6d45-8257-f714-5482" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fd81-8bd4-6fae-3084" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e922-11ea-27fb-6959" name="Wraith Engine" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b515-2a47-b8a7-5c57" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="f1b0-9fb3-7283-3a90" name="New CategoryLink" hidden="false" targetId="f1df-79ff-5215-b16d" primary="true"/>
+        <categoryLink id="bc67-d91d-cffb-98fe" name="Black Industries" hidden="false" targetId="44e3-d6a5-0e77-e9ce" primary="false"/>
+        <categoryLink id="1a6c-cdac-ed91-3c7d" name="Dark Host" hidden="false" targetId="f1ba-8a4a-2f62-77d9" primary="false"/>
+        <categoryLink id="3286-2cb3-6999-8355" name="The Ghost Fleet" hidden="false" targetId="0b5b-c09f-b2ee-58b3" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="15.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ab63-93f2-4921-20fc" name="Bane Knights" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0380-544e-b3c8-5471" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="8b3f-194b-75da-77ca" name="Unit" hidden="false" targetId="ab0d-9ec7-c53b-9de3" primary="true"/>
+        <categoryLink id="8e91-4a90-36eb-84d0" name="Dark Host" hidden="false" targetId="f1ba-8a4a-2f62-77d9" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="9b48-22dd-d212-cc44" name="Bane Knight Office Attachment" hidden="false" collective="false" import="true" type="upgrade">
+          <modifierGroups>
+            <modifierGroup>
+              <conditions>
+                <condition field="selections" scope="9b48-22dd-d212-cc44" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a658-eced-28a4-9c2c" type="equalTo"/>
+              </conditions>
+              <modifiers>
+                <modifier type="set" field="4490-cdb1-5704-8ea7" value="0.0"/>
+              </modifiers>
+            </modifierGroup>
+          </modifierGroups>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5536-d8ac-4f04-5ac1" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="a658-eced-28a4-9c2c" name="Theme Requisition Point" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e7e3-7a91-5070-dfb5" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <costs>
+            <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="3.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="2713-0c00-0ae8-fa2a" name="Unit Size" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2aee-00dc-d04d-7b5d" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="08ee-dcfe-9c2a-40bd" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="77a3-80a3-d8df-ded5" name="Minimum Unit" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="8.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="7858-7089-2213-5155" name="Maximum Unit" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="13.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="519f-61a7-1098-a742" name="Captain Aiakos" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="decrement" field="4490-cdb1-5704-8ea7" value="29.0"/>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="4157-515f-d51e-5ef3" name="Warlock/Warcaster" hidden="false" targetId="2c8c-9345-8aba-e745" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="1af2-6724-6826-6f1d" name="Warcaster/Warlock attachments" hidden="false" collective="false" import="true" targetId="99b8-0416-a421-d2c1" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b4c5-8720-b22e-1a53" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="0861-9ed3-3ad5-6634" name="Warjacks" hidden="false" collective="false" import="true" targetId="6d45-8257-f714-5482" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2aa7-4dad-999c-a218" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b9e7-aac6-914c-48aa" name="Generic Unit " hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="543c-3ff4-1a54-0bfb" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="2bf6-aa58-5202-d01b" name="Unit" hidden="false" targetId="ab0d-9ec7-c53b-9de3" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="720e-eb49-4aa5-a4d6" name="Bane Knight Office Attachment" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0dd2-ffc0-449e-e64b" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="3.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="4abe-27b3-fc11-2590" name="New SelectionEntryGroup" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7f49-5080-8f32-2003" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f042-eb7a-1c85-d68b" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="4923-f0c5-50bf-62e5" name="Minimum Unit" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="8.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="aaab-7c83-6b53-21d3" name="Maximum Unit" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="13.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5946-639e-a450-e0fc" name="Warcaster Template" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="decrement" field="4490-cdb1-5704-8ea7" value="29.0"/>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="bb30-bbcb-c78a-afeb" name="Warlock/Warcaster" hidden="false" targetId="2c8c-9345-8aba-e745" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="8eb5-b2a1-8d1b-b7d5" name="Warjacks" hidden="false" collective="false" import="true" targetId="6d45-8257-f714-5482" type="selectionEntry"/>
+        <entryLink id="f1ec-27a1-0f60-9717" name="Warcaster/Warlock attachments" hidden="false" collective="false" import="true" targetId="99b8-0416-a421-d2c1" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3361-3926-c7fe-77d1" name="Karchev and Deathjack" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="decrement" field="4490-cdb1-5704-8ea7" value="27.0"/>
+      </modifiers>
+      <modifierGroups>
+        <modifierGroup>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1c02-2de6-bcd0-32e5" type="equalTo"/>
+          </conditions>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true"/>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <categoryLinks>
+        <categoryLink id="43bb-de2d-85a7-569e" name="Warlock/Warcaster" hidden="false" targetId="2c8c-9345-8aba-e745" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="f790-dc78-6b20-0316" name="Warjacks" hidden="false" collective="false" import="true" targetId="6d45-8257-f714-5482" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5cf5-2f00-8804-c2ce" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="daa8-b3a9-2314-6c44" name="Warcaster/Warlock attachments" hidden="false" collective="false" import="true" targetId="99b8-0416-a421-d2c1" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8144-80fa-595f-4f71" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4b29-d84f-5f9e-b734" name="Deneghra the Soulweaver" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="decrement" field="4490-cdb1-5704-8ea7" value="27.0"/>
+      </modifiers>
+      <modifierGroups>
+        <modifierGroup>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3135-c027-4c7c-3d99" type="equalTo"/>
+          </conditions>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true"/>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <categoryLinks>
+        <categoryLink id="4e58-2e35-8394-7b49" name="Warlock/Warcaster" hidden="false" targetId="2c8c-9345-8aba-e745" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="aadb-c12a-36ee-4096" name="Warjacks" hidden="false" collective="false" import="true" targetId="6d45-8257-f714-5482" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ab0-86de-e920-d1c7" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="933d-6221-e45a-6f8f" name="Warcaster/Warlock attachments" hidden="false" collective="false" import="true" targetId="99b8-0416-a421-d2c1" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1515-90c8-ce9c-92dd" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="cd9a-6492-3ddf-5b08" name="Warwitch Deneghra" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="decrement" field="4490-cdb1-5704-8ea7" value="26.0"/>
+      </modifiers>
+      <modifierGroups>
+        <modifierGroup>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3135-c027-4c7c-3d99" type="equalTo"/>
+          </conditions>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true"/>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <categoryLinks>
+        <categoryLink id="8fd4-f77a-31ce-0baf" name="Warlock/Warcaster" hidden="false" targetId="2c8c-9345-8aba-e745" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="b2e1-ec29-8865-4458" name="Warjacks" hidden="false" collective="false" import="true" targetId="6d45-8257-f714-5482" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="70ca-5a7e-06d8-3d47" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="ffc8-ff06-5872-7fb3" name="Warcaster/Warlock attachments" hidden="false" collective="false" import="true" targetId="99b8-0416-a421-d2c1" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="44ad-4559-8db0-cbf3" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6205-e17f-e353-e7a8" name="*Character Solo Template" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8d82-4533-ef88-dbfa" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="40b4-6499-51bc-4de1" name="Solo" hidden="false" targetId="f7c7-5df0-843d-8db1" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3135-c027-4c7c-3d99" name="Warwitch Initiate Deneghra" hidden="false" collective="false" import="true" type="unit">
+      <modifierGroups>
+        <modifierGroup>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4b29-d84f-5f9e-b734" type="equalTo"/>
+          </conditions>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true"/>
+          </modifiers>
+        </modifierGroup>
+        <modifierGroup>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cd9a-6492-3ddf-5b08" type="equalTo"/>
+          </conditions>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true"/>
+          </modifiers>
+        </modifierGroup>
+        <modifierGroup>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="536f-b4a1-e230-9f50" type="equalTo"/>
+          </conditions>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true"/>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b881-eb60-38cd-7cf3" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="033b-8090-baf2-83b3" name="Solo" hidden="false" targetId="f7c7-5df0-843d-8db1" primary="true"/>
+        <categoryLink id="0241-3642-77a3-865e" name="Black Industries" hidden="false" targetId="44e3-d6a5-0e77-e9ce" primary="false"/>
+        <categoryLink id="5755-0b40-fccf-187d" name="Scourge of the broken coast" hidden="false" targetId="7d5e-65be-11f2-c79b" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="dde6-67da-5241-f9aa" name="Warjacks" hidden="false" collective="false" import="true" targetId="6d45-8257-f714-5482" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2c59-6558-0602-9f97" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="536f-b4a1-e230-9f50" name="Wraith Witch Deneghra" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="decrement" field="4490-cdb1-5704-8ea7" value="28.0"/>
+      </modifiers>
+      <modifierGroups>
+        <modifierGroup>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3135-c027-4c7c-3d99" type="equalTo"/>
+          </conditions>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true"/>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <categoryLinks>
+        <categoryLink id="bc73-6ea2-1b84-bc78" name="Warlock/Warcaster" hidden="false" targetId="2c8c-9345-8aba-e745" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="5b26-9fe5-5e37-8236" name="Warjacks" hidden="false" collective="false" import="true" targetId="6d45-8257-f714-5482" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6607-48ac-82c7-ce73" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="633f-37a7-e812-8650" name="Warcaster/Warlock attachments" hidden="false" collective="false" import="true" targetId="99b8-0416-a421-d2c1" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="701c-bd84-0dfd-13c7" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="77d2-c22d-c9d8-4dcc" name="Bane Lord Tartarus" hidden="false" collective="false" import="true" type="unit">
+      <modifierGroups>
+        <modifierGroup>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="036d-449e-6f11-1242" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="86d7-7286-c2ce-1fd3" type="equalTo"/>
+                    <condition field="selections" scope="036d-449e-6f11-1242" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5682-43cf-7819-2931" type="equalTo"/>
+                    <condition field="selections" scope="036d-449e-6f11-1242" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="12ff-bc9b-24a9-5ff2" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e38-294c-36ed-0eda" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="8a2e-103a-6945-a05a" name="Solo" hidden="false" targetId="f7c7-5df0-843d-8db1" primary="true"/>
+        <categoryLink id="e831-aa77-8c7a-6f7d" name="Dark Host" hidden="false" targetId="f1ba-8a4a-2f62-77d9" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c9d3-d9c7-1e18-30c8" name="Goreshade The Cursed" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="decrement" field="4490-cdb1-5704-8ea7" value="28.0"/>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="5217-1626-c04a-dcd0" name="Warlock/Warcaster" hidden="false" targetId="2c8c-9345-8aba-e745" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="f844-31e4-992f-8df2" name="Warjacks" hidden="false" collective="false" import="true" targetId="6d45-8257-f714-5482" type="selectionEntry"/>
+        <entryLink id="ee42-d865-a8a3-5c75" name="Warcaster/Warlock attachments" hidden="false" collective="false" import="true" targetId="99b8-0416-a421-d2c1" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="48c3-71aa-94c3-0916" name="Goreshare, Lord of Ruin" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="decrement" field="4490-cdb1-5704-8ea7" value="29.0"/>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="901a-4c19-6927-e7cf" name="Warlock/Warcaster" hidden="false" targetId="2c8c-9345-8aba-e745" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="504e-2bde-8c77-d0c4" name="Warjacks" hidden="false" collective="false" import="true" targetId="6d45-8257-f714-5482" type="selectionEntry"/>
+        <entryLink id="fa35-8119-0a7c-8722" name="Warcaster/Warlock attachments" hidden="false" collective="false" import="true" targetId="99b8-0416-a421-d2c1" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="115e-6e04-8634-ebab" name="Iron Lich Asphyxious" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="decrement" field="4490-cdb1-5704-8ea7" value="28.0"/>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="3068-f52f-63b7-3248" name="Warlock/Warcaster" hidden="false" targetId="2c8c-9345-8aba-e745" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="aa9c-282a-da71-e308" name="Warjacks" hidden="false" collective="false" import="true" targetId="6d45-8257-f714-5482" type="selectionEntry"/>
+        <entryLink id="bd0a-6e45-1675-6882" name="Warcaster/Warlock attachments" hidden="false" collective="false" import="true" targetId="99b8-0416-a421-d2c1" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4ec9-0c5e-a0bb-4ae0" name="Lich Lord Asphyxious" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="decrement" field="4490-cdb1-5704-8ea7" value="28.0"/>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="1631-ef92-4b53-7901" name="Warlock/Warcaster" hidden="false" targetId="2c8c-9345-8aba-e745" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="b330-77f8-8501-6c04" name="Warjacks" hidden="false" collective="false" import="true" targetId="6d45-8257-f714-5482" type="selectionEntry"/>
+        <entryLink id="7ced-1bf5-80dd-cd43" name="Warcaster/Warlock attachments" hidden="false" collective="false" import="true" targetId="99b8-0416-a421-d2c1" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a557-5b0f-1f5f-2001" name="Lich Lord Venethrax" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="decrement" field="4490-cdb1-5704-8ea7" value="29.0"/>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="27cc-9e14-284d-d69c" name="Warlock/Warcaster" hidden="false" targetId="2c8c-9345-8aba-e745" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="23de-7ccd-a54f-037b" name="Warjacks" hidden="false" collective="false" import="true" targetId="6d45-8257-f714-5482" type="selectionEntry"/>
+        <entryLink id="a936-fcf1-1cab-586b" name="Warcaster/Warlock attachments" hidden="false" collective="false" import="true" targetId="99b8-0416-a421-d2c1" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="29ac-ed68-f09a-7f9d" name="Lord Exhumator Scaverous" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="decrement" field="4490-cdb1-5704-8ea7" value="27.0"/>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="4965-99fe-3a3a-a8e4" name="Warlock/Warcaster" hidden="false" targetId="2c8c-9345-8aba-e745" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="55d5-f103-6564-cf94" name="Warjacks" hidden="false" collective="false" import="true" targetId="6d45-8257-f714-5482" type="selectionEntry"/>
+        <entryLink id="7b0c-73f8-7d42-2a6d" name="Warcaster/Warlock attachments" hidden="false" collective="false" import="true" targetId="99b8-0416-a421-d2c1" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bdea-30c0-3621-134a" name="Mortembra, Numen of Necrogensis" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="decrement" field="4490-cdb1-5704-8ea7" value="27.0"/>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="a8e7-affd-1885-afe9" name="Warlock/Warcaster" hidden="false" targetId="2c8c-9345-8aba-e745" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="8397-89aa-e164-b4c9" name="Warjacks" hidden="false" collective="false" import="true" targetId="6d45-8257-f714-5482" type="selectionEntry"/>
+        <entryLink id="59cd-d8a8-e519-b686" name="Warcaster/Warlock attachments" hidden="false" collective="false" import="true" targetId="99b8-0416-a421-d2c1" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="39bd-636a-8ac3-e200" name="Pirate Queen Skarre" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="decrement" field="4490-cdb1-5704-8ea7" value="28.0"/>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="1010-3937-6659-5fd7" name="Warlock/Warcaster" hidden="false" targetId="2c8c-9345-8aba-e745" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="c06b-12ca-fd50-a0de" name="Warjacks" hidden="false" collective="false" import="true" targetId="6d45-8257-f714-5482" type="selectionEntry"/>
+        <entryLink id="581d-b8fb-5e2d-df54" name="Warcaster/Warlock attachments" hidden="false" collective="false" import="true" targetId="99b8-0416-a421-d2c1" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="026b-6e8b-bb58-0fe9" name="Skarre, Admiral of the Black Fleet" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="decrement" field="4490-cdb1-5704-8ea7" value="27.0"/>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="31c8-2186-96e3-9e92" name="Warlock/Warcaster" hidden="false" targetId="2c8c-9345-8aba-e745" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="ea3f-6710-7c66-b9d4" name="Warjacks" hidden="false" collective="false" import="true" targetId="6d45-8257-f714-5482" type="selectionEntry"/>
+        <entryLink id="5eb1-c879-194b-b3ba" name="Warcaster/Warlock attachments" hidden="false" collective="false" import="true" targetId="99b8-0416-a421-d2c1" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f7cc-23d6-dfc8-7eb9" name="Skarre, Queen of the Broken Coast" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="decrement" field="4490-cdb1-5704-8ea7" value="26.0"/>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="279e-2bcf-7ee1-6620" name="Warlock/Warcaster" hidden="false" targetId="2c8c-9345-8aba-e745" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="1b00-e3d7-e70c-79ea" name="Warjacks" hidden="false" collective="false" import="true" targetId="6d45-8257-f714-5482" type="selectionEntry"/>
+        <entryLink id="d9ca-2e03-712a-6504" name="Warcaster/Warlock attachments" hidden="false" collective="false" import="true" targetId="99b8-0416-a421-d2c1" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="db3e-a02a-0128-7793" name="Sturgis the Corrupted" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="decrement" field="4490-cdb1-5704-8ea7" value="31.0"/>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="947c-4585-b08d-04ca" name="Warlock/Warcaster" hidden="false" targetId="2c8c-9345-8aba-e745" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="5e62-3a9d-0c59-0198" name="Warjacks" hidden="false" collective="false" import="true" targetId="6d45-8257-f714-5482" type="selectionEntry"/>
+        <entryLink id="fe65-2144-2e5f-4f4e" name="Warcaster/Warlock attachments" hidden="false" collective="false" import="true" targetId="99b8-0416-a421-d2c1" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="958d-d413-b9e2-c763" name="Darragh Wraithe" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2199-fa4e-ded5-f408" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="b127-c0d6-2c2a-2894" name="Solo" hidden="false" targetId="f7c7-5df0-843d-8db1" primary="true"/>
+        <categoryLink id="ff6b-b37f-57b1-ee18" name="Black Industries" hidden="false" targetId="44e3-d6a5-0e77-e9ce" primary="false"/>
+        <categoryLink id="05ce-a704-eac4-9d06" name="Dark Host" hidden="false" targetId="f1ba-8a4a-2f62-77d9" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="7.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8ecb-9f26-16cf-16db" name="Asphixious the Hellbringer" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="decrement" field="4490-cdb1-5704-8ea7" value="24.0"/>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="5fb5-5755-0000-b749" name="New CategoryLink" hidden="false" targetId="2c8c-9345-8aba-e745" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="92ac-80fc-cf48-6eba" name="Vociferon" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b2ed-3a3c-09b6-f393" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="c746-45d5-0e7d-5939" name="Solo" hidden="false" targetId="f7c7-5df0-843d-8db1" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="1b07-cb9b-716a-8678" name="Warjacks" hidden="false" collective="false" import="true" targetId="6d45-8257-f714-5482" type="selectionEntry"/>
+        <entryLink id="adb4-d97b-4f24-b2e2" name="Warcaster/Warlock attachments" hidden="false" collective="false" import="true" targetId="99b8-0416-a421-d2c1" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="559b-18df-0238-4e51" name="Goreshade the Bastard" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="decrement" field="4490-cdb1-5704-8ea7" value="29.0"/>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="f1aa-a595-7d1d-50e1" name="Warlock/Warcaster" hidden="false" targetId="2c8c-9345-8aba-e745" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="b0d4-7597-ddc1-af28" name="Deathwalker" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d133-7361-bac4-c371" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="17e9-9ffa-07a0-2025" name="Solo" hidden="false" targetId="f7c7-5df0-843d-8db1" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="c73d-e767-c3a1-0c82" name="Warjacks" hidden="false" collective="false" import="true" targetId="6d45-8257-f714-5482" type="selectionEntry"/>
+        <entryLink id="80fc-8f1e-e659-b446" name="Warcaster/Warlock attachments" hidden="false" collective="false" import="true" targetId="99b8-0416-a421-d2c1" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a7d6-ae4c-4b8d-7f4a" name="Master Necrotech Mortembra" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="decrement" field="4490-cdb1-5704-8ea7" value="28.0"/>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="2cd2-e3cd-3724-f152" name="Warlock/Warcaster" hidden="false" targetId="2c8c-9345-8aba-e745" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="4850-84a7-beb9-acdb" name="Deyliss" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a918-86a3-49be-bb82" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="daea-b568-9478-9534" name="Solo" hidden="false" targetId="f7c7-5df0-843d-8db1" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="c0c6-eecb-8d9a-451b" name="Warjacks" hidden="false" collective="false" import="true" targetId="6d45-8257-f714-5482" type="selectionEntry"/>
+        <entryLink id="c0b4-f4a1-3893-08f7" name="Warcaster/Warlock attachments" hidden="false" collective="false" import="true" targetId="99b8-0416-a421-d2c1" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="861e-1edd-1e02-ba8a" name="The Witch Coven of Garlghast" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="decrement" field="4490-cdb1-5704-8ea7" value="26.0"/>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="8645-7bae-5143-f474" name="Warlock/Warcaster" hidden="false" targetId="2c8c-9345-8aba-e745" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="cc37-ff9f-42a4-601a" name="Egregore" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0e78-60b8-6a28-46fc" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="dee9-ada1-8468-c4e1" name="Solo" hidden="false" targetId="f7c7-5df0-843d-8db1" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="3786-e0de-796d-716d" name="Warjacks" hidden="false" collective="false" import="true" targetId="6d45-8257-f714-5482" type="selectionEntry"/>
+        <entryLink id="529e-5e86-39d3-f9dc" name="Warcaster/Warlock attachments" hidden="false" collective="false" import="true" targetId="99b8-0416-a421-d2c1" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2222-2678-58c9-6e53" name="Mechanithralls" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="54b5-b25c-2172-de8a" name="Unit" hidden="false" targetId="ab0d-9ec7-c53b-9de3" primary="true"/>
+        <categoryLink id="597b-9d0b-e3b3-c503" name="Black Industries" hidden="false" targetId="44e3-d6a5-0e77-e9ce" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="509a-e73e-f1cc-5a09" name="Brute Thrall" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f750-5272-c194-0165" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="3.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="ef8f-3056-9ad7-7cd5" name="Skarlock Commander" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4a31-ef09-a434-69ce" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="3.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="9ee2-cc74-6a4b-4c15" name="Unit Size" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e2fb-1ad4-c75c-978d" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c23f-1aa6-8cc1-5303" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="4f69-1d96-9403-2057" name="Minimum Unit" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="6.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="b01f-f03d-57ca-3f40" name="Maximum Unit" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="9.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="89ec-c406-c0d4-bea0" name="Bane Warriors" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="015c-c4b9-604c-d12c" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="d95f-7d07-bfa6-9537" name="Unit" hidden="false" targetId="ab0d-9ec7-c53b-9de3" primary="true"/>
+        <categoryLink id="0923-b3a3-4ca0-002b" name="Dark Host" hidden="false" targetId="f1ba-8a4a-2f62-77d9" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="a403-f531-d58d-9b69" name="Bane Warrios Officer and Standard" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2106-ac60-8a17-2349" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="5.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="2514-cd7d-63a1-bc4b" name="Unit Size" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0f1f-f224-f65b-2aaf" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0584-3248-5f54-f0d0" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="118a-b9ca-4dd9-dc0b" name="Minimum Unit" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="8.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="8ce3-730e-554c-0290" name="Maximum Unit" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="14.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6084-33ce-fbc6-a7a9" name="Bane Riders" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9d8e-6ae3-5acf-e79d" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="5e55-3e58-c722-4b49" name="Unit" hidden="false" targetId="ab0d-9ec7-c53b-9de3" primary="true"/>
+        <categoryLink id="f88f-d3ef-103e-b9dc" name="Dark Host" hidden="false" targetId="f1ba-8a4a-2f62-77d9" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="ba2d-9cdc-cacb-29b3" name="Unit Size" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5b1b-833c-d13c-92da" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="85e8-d0d4-1646-da95" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="3488-9a23-acf7-512b" name="Minimum Unit" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="11.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="70a4-c68d-69c7-c9ed" name="Maximum Unit" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="17.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a84e-92ac-0902-b734" name="Bile Thralls" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bfac-595a-a1fd-d492" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="223a-13aa-13a7-f140" name="Unit" hidden="false" targetId="ab0d-9ec7-c53b-9de3" primary="true"/>
+        <categoryLink id="5bef-b8a9-8d6a-1530" name="Black Industries" hidden="false" targetId="44e3-d6a5-0e77-e9ce" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="4db0-769e-ff54-963d" name="Skarlock Commander" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6260-13ab-a170-4b80" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="3.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="dece-ead6-1899-f9a5" name="New SelectionEntryGroup" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b177-db59-043a-179b" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c1ed-d5bf-19f9-4d1c" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="3ca3-7e4c-46a1-95e9" name="Minimum Unit" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="6.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="cb1e-4071-2cf6-c5ca" name="Maximum Unit" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="9.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5453-d47e-d3c4-5c4e" name="Black Ogrun Boarding Party" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1536-f808-388f-6c8f" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="2f2d-4ac1-40fd-7cbb" name="Unit" hidden="false" targetId="ab0d-9ec7-c53b-9de3" primary="true"/>
+        <categoryLink id="bb0a-f345-eacd-387b" name="Scourge of the broken coast" hidden="false" targetId="7d5e-65be-11f2-c79b" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="f67b-df70-11c3-8be8" name="New SelectionEntryGroup" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="793a-b446-ee26-8b55" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b8c-22ce-ba33-1199" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="8ac1-59f7-8816-ddb0" name="Minimum Unit" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="7.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="1f90-aeb6-aa29-f419" name="Maximum Unit" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="11.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6bb8-d419-4bd8-006b" name="Black Ogrun Ironmongers" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fbbb-4949-cf82-4c62" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="c8cb-24bc-b37d-bd84" name="Unit" hidden="false" targetId="ab0d-9ec7-c53b-9de3" primary="true"/>
+        <categoryLink id="07a3-39da-efb6-8028" name="Scourge of the broken coast" hidden="false" targetId="7d5e-65be-11f2-c79b" primary="false"/>
+        <categoryLink id="c528-11e7-c1d2-0697" name="The Ghost Fleet" hidden="false" targetId="0b5b-c09f-b2ee-58b3" primary="false"/>
+        <categoryLink id="d03e-8dfb-1866-a8e3" name="Black Industries" hidden="false" targetId="44e3-d6a5-0e77-e9ce" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2f9a-2d3d-3936-8f16" name="Black Ogrun smog Belchers" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="98d4-cad1-7a38-1791" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="1925-e331-1280-8f3c" name="Unit" hidden="false" targetId="ab0d-9ec7-c53b-9de3" primary="true"/>
+        <categoryLink id="3817-c81f-18bd-fb48" name="Scourge of the broken coast" hidden="false" targetId="7d5e-65be-11f2-c79b" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="05f7-a5ac-9eea-604d" name="New SelectionEntryGroup" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b958-f93f-a143-f4e8" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cb03-775e-3617-5ef8" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="bf2e-3553-45f0-f626" name="Minimum Unit" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="8.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="0a6f-fadc-1b85-99a3" name="Maximum Unit" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="14.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d662-baa5-0f10-d2d1" name="Blackbanes Ghost Raiders" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3251-41dd-61a5-bf1f" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="5f96-2106-af13-a357" name="Unit" hidden="false" targetId="ab0d-9ec7-c53b-9de3" primary="true"/>
+        <categoryLink id="8ef7-2701-4321-b805" name="The Ghost Fleet" hidden="false" targetId="0b5b-c09f-b2ee-58b3" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="0bcb-d5e3-4f9b-333b" name="New SelectionEntryGroup" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="27b9-395b-a0c3-743a" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d38e-5165-c4d3-d129" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="43e7-2d24-7f76-b031" name="Minimum Unit" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="9.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="dc34-0f0b-1a70-0a8c" name="Maximum Unit" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="15.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d371-9a42-0614-7441" name="Blighted Trollkin Marauders" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e6f5-c318-aa27-d981" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="4033-09f3-8a79-9745" name="Unit" hidden="false" targetId="ab0d-9ec7-c53b-9de3" primary="true"/>
+        <categoryLink id="a36f-1edb-554a-c2e2" name="Scourge of the broken coast" hidden="false" targetId="7d5e-65be-11f2-c79b" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="0a05-47b6-dfcb-f934" name="Jussika Bloodtongue" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="88d5-624f-cf65-b2d8" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="4.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="381b-9cad-4e4e-3210" name="New SelectionEntryGroup" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5000-e1a9-a36b-f7a6" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0845-3bac-c80b-9ed2" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="c7b2-ede2-f538-75e9" name="Minimum Unit" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="8.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="4133-9261-f539-ecf8" name="Maximum Unit" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="14.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="66ae-a585-9b41-5d80" name="Bloodgorgers" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c94d-dbda-0210-edf3" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="f3a0-f4a2-4da9-413d" name="Unit" hidden="false" targetId="ab0d-9ec7-c53b-9de3" primary="true"/>
+        <categoryLink id="968c-1cfa-0e73-0fd7" name="Scourge of the broken coast" hidden="false" targetId="7d5e-65be-11f2-c79b" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="8e4a-b4e3-ef06-3621" name="New SelectionEntryGroup" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bc7b-d8ce-bad6-8cb1" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="241f-9f94-23e0-c346" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="38e2-8ab0-c1b3-046e" name="Minimum Unit" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="8.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="bd55-b0a6-792c-94c9" name="Maximum Unit" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="13.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="76fe-a4c8-ae37-a0ad" name="Carrion Thralls" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8fb0-93b7-c400-c252" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="ba4d-865d-cce1-32d0" name="Unit" hidden="false" targetId="ab0d-9ec7-c53b-9de3" primary="true"/>
+        <categoryLink id="ccb3-606d-7faf-4c37" name="Black Industries" hidden="false" targetId="44e3-d6a5-0e77-e9ce" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="16e1-5233-c199-b366" name="Unit Size" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0a95-412f-0019-78c9" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7eef-1ca0-50d9-777b" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="b0bc-36e2-081e-59f5" name="Minimum Unit" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="6.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="9e97-16fa-bc79-aeba" name="Maximum Unit" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="10.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="fa94-c4bf-ba13-40a7" name="Necrosurgeon and Stich Thralls" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4c65-3d66-d7fd-fa5d" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="3610-c752-f22d-b021" name="Unit" hidden="false" targetId="ab0d-9ec7-c53b-9de3" primary="true"/>
+        <categoryLink id="f75a-520e-5ef4-d9c5" name="Black Industries" hidden="false" targetId="44e3-d6a5-0e77-e9ce" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7035-1502-e3c1-7b03" name="Revenant Cannon Crew" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e0e4-4df9-be56-9772" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="8d28-ce6b-29f9-9ad6" name="Unit" hidden="false" targetId="ab0d-9ec7-c53b-9de3" primary="true"/>
+        <categoryLink id="9eea-904f-09a0-69d6" name="The Ghost Fleet" hidden="false" targetId="0b5b-c09f-b2ee-58b3" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="4.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2c54-16ad-d8e6-7233" name="*Unit Template" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f42-b16b-6f3d-27bc" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="79a3-ebbb-aca8-0fc3" name="Unit" hidden="false" targetId="ab0d-9ec7-c53b-9de3" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="14f8-fa13-d752-0387" name="Weapon" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7055-37bd-e198-af76" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="3.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="f034-2efa-92ab-48ad" name="Officer Attach" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8b7d-ebf8-1e55-6c03" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="3.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="eb33-bead-12c8-126e" name="Unit Size" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf50-dd2b-d545-a7b3" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="072b-db64-0407-b513" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="2a07-5681-1c2d-9ab8" name="Minimum Unit" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="8.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="e622-e36b-770e-b5c2" name="Maximum Unit" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="13.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c27f-35a0-e726-d443" name="Revenant crew of the Atramentous" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c0f5-6fde-c55f-62c1" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="2905-3222-73d3-d49b" name="Unit" hidden="false" targetId="ab0d-9ec7-c53b-9de3" primary="true"/>
+        <categoryLink id="2d5f-2c89-2fb3-0c98" name="The Ghost Fleet" hidden="false" targetId="0b5b-c09f-b2ee-58b3" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="bb23-a797-f592-3bfb" name="Revenant crew Rifleman" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a612-d37a-090f-7088" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="2.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="c6df-02f2-c17f-7239" name="Unit Size" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4c9f-ecc1-b553-d24e" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b72c-108c-fd24-4bf3" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="3e81-376c-7884-e82c" name="Minimum Unit" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="9.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="eab5-3384-af5a-250b" name="Maximum Unit" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="16.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d80e-5cdb-b92b-8089" name="Satyxis Blood Witches" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="19b0-d67c-435b-e52c" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="0f6b-9b84-aac9-b4f6" name="Unit" hidden="false" targetId="ab0d-9ec7-c53b-9de3" primary="true"/>
+        <categoryLink id="5a90-9a51-869a-acec" name="Scourge of the broken coast" hidden="false" targetId="7d5e-65be-11f2-c79b" primary="false"/>
+        <categoryLink id="99c2-476a-6768-2015" name="Scourge of the broken coast" hidden="false" targetId="7d5e-65be-11f2-c79b" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="4e40-1359-f6f6-2dea" name="Satyxis Blood Hag" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="29cd-41d2-4532-a171" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="851d-ad38-2e07-e842" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="4.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="4d31-fb00-6670-9f19" name="Unit Size" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="765e-4f0e-d9b5-384c" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="63fc-9bea-b028-63bd" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="49fb-9374-3234-d021" name="Minimum Unit" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="7.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="8185-c430-0f3e-a65a" name="Maximum Unit" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="11.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5411-ae73-aba7-d87a" name="Satyxis Gunslingers" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9191-7f7d-2d4a-9186" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="2fd7-4260-cd47-29fc" name="Unit" hidden="false" targetId="ab0d-9ec7-c53b-9de3" primary="true"/>
+        <categoryLink id="7859-74f2-abc0-0a08" name="Scourge of the broken coast" hidden="false" targetId="7d5e-65be-11f2-c79b" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="6.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9a60-75a9-b66a-5597" name="Satyxis Raiders" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="81e4-ad65-1ec8-7a5f" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="7c86-ac7d-2a1b-815b" name="Unit" hidden="false" targetId="ab0d-9ec7-c53b-9de3" primary="true"/>
+        <categoryLink id="9664-bb45-fb15-dbf7" name="Scourge of the broken coast" hidden="false" targetId="7d5e-65be-11f2-c79b" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="501b-4ac0-403f-9323" name="Satyxis Raider Sea Witch" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ac0-02f8-3924-04de" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dfa7-aedd-f269-522f" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="1663-e90d-86ab-3232" name="Scourge of the broken coast" hidden="false" targetId="7d5e-65be-11f2-c79b" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="3.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="5c3a-7c4f-2654-4ab5" name="Unit Size" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e4fe-8531-aa4f-8206" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bfdd-1b5c-a3b0-e6ef" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="c792-7a4f-7f92-dc2d" name="Minimum Unit" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="9.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="0b42-c4d3-d6ee-635c" name="Maximum Unit" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="14.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8b77-9ae5-e466-8370" name="Scharde Dirge Seers" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cfc9-03ec-deb5-0492" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="79cd-5f53-7286-b738" name="Unit" hidden="false" targetId="ab0d-9ec7-c53b-9de3" primary="true"/>
+        <categoryLink id="8aec-ede2-00e5-ecc4" name="Scourge of the broken coast" hidden="false" targetId="7d5e-65be-11f2-c79b" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c632-f401-cb60-81ca" name="Scharde Pirates" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="3006-f476-14cf-818e" name="Unit" hidden="false" targetId="ab0d-9ec7-c53b-9de3" primary="true"/>
+        <categoryLink id="e3dc-a831-efb5-91fe" name="Scourge of the broken coast" hidden="false" targetId="7d5e-65be-11f2-c79b" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="5bcf-3790-cb65-cb24" name="Scharde Pirate Officer" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1dfd-0f80-bd01-802a" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="1d8c-1730-2174-0d76" name="Scourge of the broken coast" hidden="false" targetId="7d5e-65be-11f2-c79b" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="3.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="1dda-0d3a-82a2-c72e" name="Unit Size" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8124-4880-cad2-1eb0" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8fad-f645-0ee0-241f" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="33c4-0fdb-941a-fe61" name="Minimum Unit" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="8.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="42d4-b395-a678-f329" name="Maximum Unit" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="13.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a26a-40bc-7695-acb5" name="Soul Hunters" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="249c-24e8-b42b-9088" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="9991-2c62-06be-fda8" name="Unit" hidden="false" targetId="ab0d-9ec7-c53b-9de3" primary="true"/>
+        <categoryLink id="8716-9bcc-4200-1906" name="Black Industries" hidden="false" targetId="44e3-d6a5-0e77-e9ce" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="dcae-320c-f4e4-175d" name="Unit Size" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="95a3-8aae-af39-b417" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1faf-6a44-59c0-0927" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="1806-4e05-62ad-64a4" name="Minimum Unit" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="0c62-084e-15d3-b141" name="Maximum Unit" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="16.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="acb5-a1ce-6565-03c4" name="Agrimony, Crone of the Dying Sands" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d5f1-6909-3d2c-1af5" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="bb30-4dfd-4631-330f" name="Solo" hidden="false" targetId="f7c7-5df0-843d-8db1" primary="true"/>
+        <categoryLink id="e6e9-720f-7b32-4f12" name="The Ghost Fleet" hidden="false" targetId="0b5b-c09f-b2ee-58b3" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4061-ec8a-49b1-3bbc" name="Aiakos, Scourge of the Meredius" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e661-d124-189f-6594" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="10ab-1d08-bce8-cd03" name="Solo" hidden="false" targetId="f7c7-5df0-843d-8db1" primary="true"/>
+        <categoryLink id="cae4-dfd3-6aea-72c7" name="Black Industries" hidden="false" targetId="44e3-d6a5-0e77-e9ce" primary="false"/>
+        <categoryLink id="1110-370a-0704-5b45" name="Scourge of the broken coast" hidden="false" targetId="7d5e-65be-11f2-c79b" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="59f4-5425-5c9a-f7b2" name="Warjacks" hidden="false" collective="false" import="true" targetId="6d45-8257-f714-5482" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="4.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="15a5-7b45-09fa-5ef2" name="Axiara Wraithblade" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="76f6-488e-1e84-3dc7" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="97b7-3bf8-5567-c124" name="Solo" hidden="false" targetId="f7c7-5df0-843d-8db1" primary="true"/>
+        <categoryLink id="1e10-ff32-9ac7-188c" name="Scourge of the broken coast" hidden="false" targetId="7d5e-65be-11f2-c79b" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6eca-60e1-282e-e9ee" name="Bloat Thrall Overseer Mobious" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7658-05a9-9118-8156" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="447f-4065-3f64-0eed" name="Solo" hidden="false" targetId="f7c7-5df0-843d-8db1" primary="true"/>
+        <categoryLink id="aa42-f6e5-c8ce-6d18" name="Black Industries" hidden="false" targetId="44e3-d6a5-0e77-e9ce" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="4.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="fe47-3c85-7e79-f7c6" name="Bloat Thrall" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ece4-695d-e665-b4b3" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="286f-8062-65e5-188b" name="Solo" hidden="false" targetId="f7c7-5df0-843d-8db1" primary="true"/>
+        <categoryLink id="91a1-cef0-20cf-7819" name="Black Industries" hidden="false" targetId="44e3-d6a5-0e77-e9ce" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="eb97-19fd-8534-06a9" name="Captain Rengrave" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="510c-9550-e3d6-dfa7" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="cd86-767e-701f-e378" name="Solo" hidden="false" targetId="f7c7-5df0-843d-8db1" primary="true"/>
+        <categoryLink id="1cff-1bd2-51cf-dac3" name="The Ghost Fleet" hidden="false" targetId="0b5b-c09f-b2ee-58b3" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="4.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="53f4-4d23-3cac-2a4b" name="General, Gerlak Slaughterborn" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="405e-1e4b-91f6-801c" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="a6c9-ee73-1211-fb8c" name="Solo" hidden="false" targetId="f7c7-5df0-843d-8db1" primary="true"/>
+        <categoryLink id="0d18-1925-ed3a-e8bb" name="Scourge of the broken coast" hidden="false" targetId="7d5e-65be-11f2-c79b" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="cb77-5470-c660-d7c2" name="Hellslinger Phantom" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5b38-c617-55b4-8c69" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="d769-5fe7-8737-7ea3" name="Solo" hidden="false" targetId="f7c7-5df0-843d-8db1" primary="true"/>
+        <categoryLink id="83b2-660a-0ffe-4f81" name="The Ghost Fleet" hidden="false" targetId="0b5b-c09f-b2ee-58b3" primary="false"/>
+        <categoryLink id="1526-e917-18ce-cc71" name="Black Industries" hidden="false" targetId="44e3-d6a5-0e77-e9ce" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="6.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e078-90fb-fe72-19ab" name="Iron Lich Overseer" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d5c-0ca9-cc8c-034c" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="82c3-9d04-6c7b-c4ad" name="Solo" hidden="false" targetId="f7c7-5df0-843d-8db1" primary="true"/>
+        <categoryLink id="ee16-bf5d-7f2d-5aba" name="Black Industries" hidden="false" targetId="44e3-d6a5-0e77-e9ce" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="9a04-db67-9e9d-f150" name="Warjacks" hidden="false" collective="false" import="true" targetId="6d45-8257-f714-5482" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6ba7-2b81-1498-9977" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="13f8-3bd8-ec56-3ec7" name="Machine Wraith" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="80e8-fa62-e644-38a0" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="7c04-59f1-4ea4-ac7b" name="Solo" hidden="false" targetId="f7c7-5df0-843d-8db1" primary="true"/>
+        <categoryLink id="78b6-ffe1-864d-7ce7" name="Dark Host" hidden="false" targetId="f1ba-8a4a-2f62-77d9" primary="false"/>
+        <categoryLink id="daef-b910-85f8-729f" name="Black Industries" hidden="false" targetId="44e3-d6a5-0e77-e9ce" primary="false"/>
+        <categoryLink id="45c6-77a2-bb4b-a850" name="The Ghost Fleet" hidden="false" targetId="0b5b-c09f-b2ee-58b3" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8dbf-c109-c48e-b249" name="Master Gurglepox" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b38-8621-2721-185c" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="3236-8b23-5f42-0fab" name="Solo" hidden="false" targetId="f7c7-5df0-843d-8db1" primary="true"/>
+        <categoryLink id="c2e6-2278-d591-3010" name="Dark Host" hidden="false" targetId="f1ba-8a4a-2f62-77d9" primary="false"/>
+        <categoryLink id="6df1-6b29-6dc5-b5ed" name="Black Industries" hidden="false" targetId="44e3-d6a5-0e77-e9ce" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="7.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a1d6-94f4-34ca-23bc" name="Misery Cage" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="be7f-e886-c934-3ea6" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="2312-b4cd-29b0-3d52" name="Solo" hidden="false" targetId="f7c7-5df0-843d-8db1" primary="true"/>
+        <categoryLink id="d366-7a5d-c04b-f019" name="The Ghost Fleet" hidden="false" targetId="0b5b-c09f-b2ee-58b3" primary="false"/>
+        <categoryLink id="e702-1e9a-8942-e3f7" name="Scourge of the broken coast" hidden="false" targetId="7d5e-65be-11f2-c79b" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5f42-f0f9-bebf-4e86" name="Necrotech" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="058d-6881-4ab7-8edd" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="0170-b61e-9378-6e27" name="Solo" hidden="false" targetId="f7c7-5df0-843d-8db1" primary="true"/>
+        <categoryLink id="699c-4c33-d835-1083" name="Black Industries" hidden="false" targetId="44e3-d6a5-0e77-e9ce" primary="false"/>
+        <categoryLink id="e5f9-f4f8-f7b9-ccc7" name="Dark Host" hidden="false" targetId="f1ba-8a4a-2f62-77d9" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="cccf-da39-fe54-54f4" name="Ol&apos;Grim" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fdb6-49c6-7763-baec" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="2270-0d27-1cb3-c2ab" name="Solo" hidden="false" targetId="f7c7-5df0-843d-8db1" primary="true"/>
+        <categoryLink id="3ccd-d072-e0f5-860d" name="Dark Host" hidden="false" targetId="f1ba-8a4a-2f62-77d9" primary="false"/>
+        <categoryLink id="5102-7ea5-645d-eb14" name="The Ghost Fleet" hidden="false" targetId="0b5b-c09f-b2ee-58b3" primary="false"/>
+        <categoryLink id="2210-48bb-f1e7-a661" name="Black Industries" hidden="false" targetId="44e3-d6a5-0e77-e9ce" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="6.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f1f3-9383-22cc-1cfb" name="Pistol Wraith" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e5d6-8da5-0a80-2c15" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="6f47-2f31-52b9-b841" name="Solo" hidden="false" targetId="f7c7-5df0-843d-8db1" primary="true"/>
+        <categoryLink id="135f-cd46-5254-8921" name="Black Industries" hidden="false" targetId="44e3-d6a5-0e77-e9ce" primary="false"/>
+        <categoryLink id="3f4e-e24e-ee10-d7b6" name="Dark Host" hidden="false" targetId="f1ba-8a4a-2f62-77d9" primary="false"/>
+        <categoryLink id="fbd4-c536-dcfe-9df8" name="The Ghost Fleet" hidden="false" targetId="0b5b-c09f-b2ee-58b3" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="4.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7bdd-cede-ce05-61d2" name="Satyxis Raider Captain" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ac88-35ab-b113-7275" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="ec13-2309-54a6-8e8f" name="Solo" hidden="false" targetId="f7c7-5df0-843d-8db1" primary="true"/>
+        <categoryLink id="7e01-fee6-7f61-cffd" name="Scourge of the broken coast" hidden="false" targetId="7d5e-65be-11f2-c79b" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5bf5-9295-b947-dd1c" name="Scrap Thrall" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3908-f550-4860-6af6" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="0709-e03d-5e6f-9d6c" name="Solo" hidden="false" targetId="f7c7-5df0-843d-8db1" primary="true"/>
+        <categoryLink id="9fee-3fb6-fef3-c57b" name="Black Industries" hidden="false" targetId="44e3-d6a5-0e77-e9ce" primary="false"/>
+        <categoryLink id="9ba8-b1db-8047-942a" name="Dark Host" hidden="false" targetId="f1ba-8a4a-2f62-77d9" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c382-5dd7-4b31-a15b" name="Severa Blacktide" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ac75-0251-c72a-e94f" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="f99d-4fd9-824b-bf7d" name="Solo" hidden="false" targetId="f7c7-5df0-843d-8db1" primary="true"/>
+        <categoryLink id="9376-1cfc-473d-5b0a" name="Scourge of the broken coast" hidden="false" targetId="7d5e-65be-11f2-c79b" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b81e-f039-4d32-155e" name="Soul Trapper" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6892-e75c-3307-4fd2" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="1f44-87a5-621a-a723" name="Solo" hidden="false" targetId="f7c7-5df0-843d-8db1" primary="true"/>
+        <categoryLink id="7163-4d1b-855a-23bd" name="Dark Host" hidden="false" targetId="f1ba-8a4a-2f62-77d9" primary="false"/>
+        <categoryLink id="c663-6553-5740-c9ee" name="Black Industries" hidden="false" targetId="44e3-d6a5-0e77-e9ce" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7c89-59a7-6d01-b67b" name="Warwitch Siren" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ee50-31e6-3f91-8f7a" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="eef0-e9f5-52fa-d081" name="Solo" hidden="false" targetId="f7c7-5df0-843d-8db1" primary="true"/>
+        <categoryLink id="9518-c5e2-741e-8137" name="Black Industries" hidden="false" targetId="44e3-d6a5-0e77-e9ce" primary="false"/>
+        <categoryLink id="e5ca-e82e-ea41-6f50" name="Scourge of the broken coast" hidden="false" targetId="7d5e-65be-11f2-c79b" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="631c-e896-ce4e-d843" name="Theme Force" hidden="false" collective="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink id="3ae4-01c0-d149-40e9" name="Theme Force" hidden="false" targetId="10d5-4d41-10b8-14c5" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="8676-0db4-fffb-e85d" name="Theme Force Selection" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dad8-798d-22bb-52f4" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1c2c-50aa-86ea-68b8" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="86d7-7286-c2ce-1fd3" name="Black Industries" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="5a2d-413f-534c-ea7d" name="Dark Host" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="5682-43cf-7819-2931" name="The Ghost Fleet" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="12ff-bc9b-24a9-5ff2" name="Scourge of the Broken Coast" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="6a35-4ac6-50b0-7386" name="None" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <sharedSelectionEntries>
+    <selectionEntry id="6d45-8257-f714-5482" name="Warjacks" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f579-83e2-e0d7-b550" type="min"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="fd6a-c20e-7c33-4b76" name="Slayer" hidden="false" collective="false" import="true" type="unit">
+          <categoryLinks>
+            <categoryLink id="3e5d-e2dd-dcf8-1f17" name="Warjack/Warbeast" hidden="false" targetId="8bb5-6ce9-7bb9-f76c" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="10.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="e6b4-f02c-8555-294a" name="Reaper" hidden="false" collective="false" import="true" type="unit">
+          <categoryLinks>
+            <categoryLink id="ec19-487a-b85d-571d" name="Warjack/Warbeast" hidden="false" targetId="8bb5-6ce9-7bb9-f76c" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="13.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="321c-52c4-5259-ae0e" name="Kraken" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="66d9-0673-7b4b-7ebe" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="3a28-268b-854e-153e" name="Warjack/Warbeast" hidden="false" targetId="8bb5-6ce9-7bb9-f76c" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="32.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="a12a-bb36-d791-1070" name="Sepulcher" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="53c1-a831-1cba-7d81" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="e193-d394-7717-f1c4" name="Warjack/Warbeast" hidden="false" targetId="8bb5-6ce9-7bb9-f76c" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="32.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="eedb-a505-d1f7-e01f" name="Barathrum" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5cd8-0c58-2ecc-8029" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="8386-52d0-7fba-2b00" name="Warjack/Warbeast" hidden="false" targetId="8bb5-6ce9-7bb9-f76c" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="13.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="eb7d-ff0c-a4e0-f1b8" name="Cankerworm" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2aad-e293-fff9-a202" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="6d9f-d0d5-bf63-ab5e" name="Unit" hidden="false" targetId="ab0d-9ec7-c53b-9de3" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="9.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="4f18-fea8-b22c-f057" name="Corruptor" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="12.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="1c02-2de6-bcd0-32e5" name="Deathjack" hidden="false" collective="false" import="true" type="upgrade">
+          <modifierGroups>
+            <modifierGroup>
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3361-3926-c7fe-77d1" type="equalTo"/>
+              </conditions>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true"/>
+              </modifiers>
+            </modifierGroup>
+          </modifierGroups>
+          <costs>
+            <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="18.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="a8b4-9c8d-e4f4-b059" name="Deathripper" hidden="false" collective="false" import="true" type="unit">
+          <categoryLinks>
+            <categoryLink id="624c-d0a1-7bda-2f87" name="Warjack/Warbeast" hidden="false" targetId="8bb5-6ce9-7bb9-f76c" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="5.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="49e6-d385-72d2-1a74" name="Defiler" hidden="false" collective="false" import="true" type="upgrade">
+          <costs>
+            <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="7.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="86af-a90c-3e5f-e4b5" name="Desecrator" hidden="false" collective="false" import="true" type="unit">
+          <categoryLinks>
+            <categoryLink id="c6ab-40a4-3384-b89f" name="Unit" hidden="false" targetId="ab0d-9ec7-c53b-9de3" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="12.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="366e-0549-561e-8421" name="Erebus" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ee74-b50e-a99f-a77f" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="7b65-deb9-3f42-0df2" name="Unit" hidden="false" targetId="ab0d-9ec7-c53b-9de3" primary="false"/>
+            <categoryLink id="4fa8-9abf-b59b-3936" name="Unit" hidden="false" targetId="ab0d-9ec7-c53b-9de3" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="13.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="de49-7621-8cc1-0881" name="Harrower" hidden="false" collective="false" import="true" type="unit">
+          <categoryLinks>
+            <categoryLink id="0903-de66-61a5-3404" name="Unit" hidden="false" targetId="ab0d-9ec7-c53b-9de3" primary="false"/>
+            <categoryLink id="7372-123c-3e52-78c7" name="Unit" hidden="false" targetId="ab0d-9ec7-c53b-9de3" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="13.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="daea-3e75-79c9-4c82" name="Helldiver" hidden="false" collective="false" import="true" type="unit">
+          <categoryLinks>
+            <categoryLink id="ab57-031b-d7bf-5a0e" name="Unit" hidden="false" targetId="ab0d-9ec7-c53b-9de3" primary="false"/>
+            <categoryLink id="5542-b265-48be-34dc" name="Unit" hidden="false" targetId="ab0d-9ec7-c53b-9de3" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="6.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="a4d3-af43-8b91-ab0a" name="Inflictor" hidden="false" collective="false" import="true" type="unit">
+          <categoryLinks>
+            <categoryLink id="474d-4dc2-a6cf-eb3a" name="Unit" hidden="false" targetId="ab0d-9ec7-c53b-9de3" primary="false"/>
+            <categoryLink id="3f27-8963-7100-b5fa" name="Unit" hidden="false" targetId="ab0d-9ec7-c53b-9de3" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="11.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="6e4e-e6e5-3190-e3ab" name="Leviathan" hidden="false" collective="false" import="true" type="unit">
+          <categoryLinks>
+            <categoryLink id="9627-fc7e-572b-e45f" name="Unit" hidden="false" targetId="ab0d-9ec7-c53b-9de3" primary="false"/>
+            <categoryLink id="57d0-591b-759e-5fba" name="Unit" hidden="false" targetId="ab0d-9ec7-c53b-9de3" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="14.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="1771-812a-5093-0720" name="Nightwretch" hidden="false" collective="false" import="true" type="unit">
+          <categoryLinks>
+            <categoryLink id="c0fb-5c72-32de-f3b4" name="Unit" hidden="false" targetId="ab0d-9ec7-c53b-9de3" primary="false"/>
+            <categoryLink id="1820-c6ab-10bc-4121" name="Unit" hidden="false" targetId="ab0d-9ec7-c53b-9de3" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="7.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="b695-69ec-67ae-b561" name="Ripjaw" hidden="false" collective="false" import="true" type="unit">
+          <categoryLinks>
+            <categoryLink id="172d-b130-bd94-292e" name="Unit" hidden="false" targetId="ab0d-9ec7-c53b-9de3" primary="false"/>
+            <categoryLink id="f074-703e-6401-8cfe" name="Unit" hidden="false" targetId="ab0d-9ec7-c53b-9de3" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="6.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="c9dc-ef6c-6917-1722" name="Scavenger" hidden="false" collective="false" import="true" type="unit">
+          <categoryLinks>
+            <categoryLink id="b27b-db33-a661-a982" name="Unit" hidden="false" targetId="ab0d-9ec7-c53b-9de3" primary="false"/>
+            <categoryLink id="92ec-4bd8-bcf8-5c8d" name="Unit" hidden="false" targetId="ab0d-9ec7-c53b-9de3" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="6.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="02e3-a502-d2d7-104f" name="Kharybdis" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="300c-ecc8-6d38-d687" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="2c5c-4e58-f76d-5d48" name="Unit" hidden="false" targetId="ab0d-9ec7-c53b-9de3" primary="false"/>
+            <categoryLink id="66ad-27b7-7256-a0c0" name="Unit" hidden="false" targetId="ab0d-9ec7-c53b-9de3" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="15.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="ac68-eb0f-a682-a972" name="Malice" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="954a-559d-3d5c-1038" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="5b84-5d46-397a-a665" name="Unit" hidden="false" targetId="ab0d-9ec7-c53b-9de3" primary="false"/>
+            <categoryLink id="c6a1-b060-6dc1-0eb6" name="Unit" hidden="false" targetId="ab0d-9ec7-c53b-9de3" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="13.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="dcd8-8286-c176-6602" name="Seether" hidden="false" collective="false" import="true" type="unit">
+          <categoryLinks>
+            <categoryLink id="3445-46a0-3303-59a7" name="Unit" hidden="false" targetId="ab0d-9ec7-c53b-9de3" primary="false"/>
+            <categoryLink id="ca9b-a033-25a8-bddf" name="Unit" hidden="false" targetId="ab0d-9ec7-c53b-9de3" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="12.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="c19d-a65a-ec45-ab67" name="Shrike" hidden="false" collective="false" import="true" type="unit">
+          <categoryLinks>
+            <categoryLink id="b897-d056-1ed6-b2e6" name="Unit" hidden="false" targetId="ab0d-9ec7-c53b-9de3" primary="false"/>
+            <categoryLink id="61ea-f7dd-d5ae-e0fd" name="Unit" hidden="false" targetId="ab0d-9ec7-c53b-9de3" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="5.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="282d-16f4-6f5e-167c" name="Stalker" hidden="false" collective="false" import="true" type="unit">
+          <categoryLinks>
+            <categoryLink id="0738-c3a6-7837-f3f9" name="Unit" hidden="false" targetId="ab0d-9ec7-c53b-9de3" primary="false"/>
+            <categoryLink id="9f41-5e41-ed1f-13a7" name="Unit" hidden="false" targetId="ab0d-9ec7-c53b-9de3" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="8.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="e934-17ca-8f4b-c10d" name="Nightmare" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="162d-b3df-5904-7aef" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="73e4-3fa5-7c77-0687" name="Unit" hidden="false" targetId="ab0d-9ec7-c53b-9de3" primary="false"/>
+            <categoryLink id="5f04-cadd-6d25-3acd" name="Unit" hidden="false" targetId="ab0d-9ec7-c53b-9de3" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="18.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="99b8-0416-a421-d2c1" name="Warcaster/Warlock attachments" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4051-fe2f-353e-5b48" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="452e-7e0e-3a67-7698" name="Withershadow Combine" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1d74-7080-a733-0fcc" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="c18b-115d-fd57-f4e1" name="Solo" hidden="false" targetId="f7c7-5df0-843d-8db1" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="7.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="d5d8-bd9a-eb09-9b24" name="Satyxis Blood Priestess" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6670-c729-0cc2-a0bb" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="743a-6a9e-8cba-c569" name="Scourge of the broken coast" hidden="false" targetId="7d5e-65be-11f2-c79b" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="4.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="2eb9-9338-c6b6-02ec" name="Skarlock Thrall" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a19e-d2c8-fdf3-1f64" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="3.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+</catalogue>
