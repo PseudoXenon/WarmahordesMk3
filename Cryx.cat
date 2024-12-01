@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8446-a691-f0af-e1a3" name="Cryx" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="93b2-93db-c4ae-6972" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8446-a691-f0af-e1a3" name="Cryx" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="93b2-93db-c4ae-6972" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="44e3-d6a5-0e77-e9ce" name="Black Industries" hidden="false"/>
     <categoryEntry id="f1ba-8a4a-2f62-77d9" name="Dark Host" hidden="false"/>

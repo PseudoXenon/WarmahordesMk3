@@ -1,0 +1,2368 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="ece7-79f8-a276-a66b" name="Cygnar" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="93b2-93db-c4ae-6972" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <categoryEntries>
+    <categoryEntry id="ebf3-5a16-b22b-8b77" name="Theme Force" hidden="false"/>
+    <categoryEntry id="b78f-5e48-8c5b-aad0" name="Grave Diggers" hidden="false"/>
+    <categoryEntry id="6dd2-70c2-de2f-683b" name="Heaavy Metal" hidden="false"/>
+    <categoryEntry id="ff2a-6b57-ccb4-14ba" name="Sons of the Tempest" hidden="false"/>
+    <categoryEntry id="42f3-3e97-1237-73d3" name="Storm Division" hidden="false"/>
+  </categoryEntries>
+  <forceEntries>
+    <forceEntry id="58bb-238d-80cb-18aa" name="Cygnar" hidden="false">
+      <categoryLinks>
+        <categoryLink id="ce29-ba06-59bd-35d5" name="Battle Engine" hidden="false" targetId="f1df-79ff-5215-b16d" primary="false"/>
+        <categoryLink id="9f7e-eadc-1432-9fa5" name="Solo" hidden="false" targetId="f7c7-5df0-843d-8db1" primary="false"/>
+        <categoryLink id="80c7-60dc-ca69-911c" name="Unit" hidden="false" targetId="ab0d-9ec7-c53b-9de3" primary="false"/>
+        <categoryLink id="7190-4590-8765-9d63" name="Warjack/Warbeast" hidden="false" targetId="8bb5-6ce9-7bb9-f76c" primary="false"/>
+        <categoryLink id="d012-0bba-6dca-a8ae" name="Warlock/Warcaster" hidden="false" targetId="2c8c-9345-8aba-e745" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="79ae-f170-e9cc-b519" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cb25-2767-3bad-bc63" type="min"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="4752-03f3-1619-637f" name="Theme Force" hidden="false" targetId="ebf3-5a16-b22b-8b77" primary="false"/>
+      </categoryLinks>
+    </forceEntry>
+  </forceEntries>
+  <selectionEntries>
+    <selectionEntry id="9150-eed0-b74e-42cf" name="*Solo Template - Delete theme containing" hidden="false" collective="false" import="true" type="model">
+      <modifierGroups>
+        <modifierGroup>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d22a-9283-3629-cb33" type="equalTo"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d909-5a08-bad0-9406" type="equalTo"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e9e2-4888-17a0-6562" type="equalTo"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1aa9-c98d-435a-e632" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0f2c-ed97-7c25-bab6" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="c854-20a6-b9ad-94c2" name="New CategoryLink" hidden="false" targetId="f7c7-5df0-843d-8db1" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ab63-15e0-96cc-4f6e" name="*Unit Template" hidden="false" collective="false" import="true" type="unit">
+      <modifierGroups>
+        <modifierGroup>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d22a-9283-3629-cb33" type="equalTo"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e9e2-4888-17a0-6562" type="equalTo"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1aa9-c98d-435a-e632" type="equalTo"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d909-5a08-bad0-9406" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <constraints>
+        <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c1b-db27-de20-e85f" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="7f66-cd63-ab20-fbb6" name="Unit" hidden="false" targetId="ab0d-9ec7-c53b-9de3" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="291f-bd49-0f38-8053" name="Weapon" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="24ed-21e9-e460-8448" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="3.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="649a-1bfe-7512-b4bc" name="Officer" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="080f-e644-28d1-44f6" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="3.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="0b97-62bf-2707-b14e" name="Unit Size" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2c2a-110d-a231-0742" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b74f-f289-e009-8932" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="4666-6b9b-c5bc-8950" name="Minimum Unit" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="8.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="da6c-d70d-e104-3fc3" name="Maximum Unit" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="13.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ab77-e3ee-4cb4-6d45" name="Theme Force" hidden="false" collective="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink id="3982-581b-0647-648c" name="New CategoryLink" hidden="false" targetId="ebf3-5a16-b22b-8b77" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="0dea-5856-d7f3-c564" name="Theme Force Selection" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe5d-c9cf-ba14-4406" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9baa-9056-8707-8054" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="b0b9-b105-2cea-e0d4" name="Theme Force" hidden="false" targetId="ebf3-5a16-b22b-8b77" primary="false"/>
+          </categoryLinks>
+          <selectionEntries>
+            <selectionEntry id="1aa9-c98d-435a-e632" name="Sons of Tempest" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="d22a-9283-3629-cb33" name="Storm Division" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="e9e2-4888-17a0-6562" name="Grave Diggers" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="d909-5a08-bad0-9406" name="Heavy Metal" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="2b32-812c-8102-992d" name="None" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="821a-e0f7-334a-9ed7" name="Captain Allison Jakes" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="decrement" field="4490-cdb1-5704-8ea7" value="31.0"/>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="0ddb-50f9-6ff2-3135" name="Warlock/Warcaster" hidden="false" targetId="2c8c-9345-8aba-e745" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="23bd-3f8b-9d17-4c01" name="Warjack/Warbeast" hidden="false" collective="false" import="true" targetId="dcd4-5276-4c91-e16b" type="selectionEntry"/>
+        <entryLink id="781c-5fc9-467b-d00e" name="Warcaster/Warlock attachments" hidden="false" collective="false" import="true" targetId="0051-722b-be45-97a7" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5382-0415-09d4-257a" name="*Warcaster Template" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="decrement" field="4490-cdb1-5704-8ea7" value="29.0"/>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="af81-f677-adf5-5d7b" name="Warlock/Warcaster" hidden="false" targetId="2c8c-9345-8aba-e745" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="fb12-5e52-903c-84e5" name="Warjack/Warbeast" hidden="false" collective="false" import="true" targetId="dcd4-5276-4c91-e16b" type="selectionEntry"/>
+        <entryLink id="9d1b-adaf-26a8-c465" name="Warcaster/Warlock attachments" hidden="false" collective="false" import="true" targetId="0051-722b-be45-97a7" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5954-6b9c-780d-2385" name="Captain Allistar Caine" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="decrement" field="4490-cdb1-5704-8ea7" value="27.0"/>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="be48-43d8-c985-002a" name="Warlock/Warcaster" hidden="false" targetId="2c8c-9345-8aba-e745" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="1450-37bb-d507-be83" name="Warjack/Warbeast" hidden="false" collective="false" import="true" targetId="dcd4-5276-4c91-e16b" type="selectionEntry"/>
+        <entryLink id="8d1f-0677-a0e4-bc43" name="Warcaster/Warlock attachments" hidden="false" collective="false" import="true" targetId="0051-722b-be45-97a7" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a493-86a5-684f-6ab1" name="Captain Jeremiah Kraye" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="decrement" field="4490-cdb1-5704-8ea7" value="28.0"/>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="692e-9ede-6b01-f478" name="Warlock/Warcaster" hidden="false" targetId="2c8c-9345-8aba-e745" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="06f6-4bed-e481-417d" name="Warjack/Warbeast" hidden="false" collective="false" import="true" targetId="dcd4-5276-4c91-e16b" type="selectionEntry"/>
+        <entryLink id="92dd-11c0-4d23-e60b" name="Warcaster/Warlock attachments" hidden="false" collective="false" import="true" targetId="0051-722b-be45-97a7" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="47be-beb4-85fa-0cf6" name="Captain Kara Sloan" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="decrement" field="4490-cdb1-5704-8ea7" value="28.0"/>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="13c4-834f-c5ba-3431" name="Warlock/Warcaster" hidden="false" targetId="2c8c-9345-8aba-e745" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="038f-b3ec-968e-8ca2" name="Warjack/Warbeast" hidden="false" collective="false" import="true" targetId="dcd4-5276-4c91-e16b" type="selectionEntry"/>
+        <entryLink id="7245-13af-48dd-57a2" name="Warcaster/Warlock attachments" hidden="false" collective="false" import="true" targetId="0051-722b-be45-97a7" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f8b8-d96e-44d1-ca12" name="Captain Victoria Haley" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="decrement" field="4490-cdb1-5704-8ea7" value="27.0"/>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="94b0-1d80-38b3-d521" name="Warlock/Warcaster" hidden="false" targetId="2c8c-9345-8aba-e745" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="01e4-83a9-64c7-f38e" name="Warjack/Warbeast" hidden="false" collective="false" import="true" targetId="dcd4-5276-4c91-e16b" type="selectionEntry"/>
+        <entryLink id="7b2a-8be3-1ad7-6e16" name="Warcaster/Warlock attachments" hidden="false" collective="false" import="true" targetId="0051-722b-be45-97a7" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3163-6119-d818-d685" name="Commander Adept Nemo" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="decrement" field="4490-cdb1-5704-8ea7" value="30.0"/>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="79a1-72cc-57c5-1575" name="Warlock/Warcaster" hidden="false" targetId="2c8c-9345-8aba-e745" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="aa9d-efcc-4c08-deb1" name="Warjack/Warbeast" hidden="false" collective="false" import="true" targetId="dcd4-5276-4c91-e16b" type="selectionEntry"/>
+        <entryLink id="a587-f18c-85e6-b281" name="Warcaster/Warlock attachments" hidden="false" collective="false" import="true" targetId="0051-722b-be45-97a7" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4565-029f-b3d0-720f" name="Captain Coleman Sryker" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="decrement" field="4490-cdb1-5704-8ea7" value="30.0"/>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="3d22-accf-3dd1-a239" name="Warlock/Warcaster" hidden="false" targetId="2c8c-9345-8aba-e745" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="fd33-fd02-662e-9d1e" name="Warjack/Warbeast" hidden="false" collective="false" import="true" targetId="dcd4-5276-4c91-e16b" type="selectionEntry"/>
+        <entryLink id="e89f-da92-b9c4-7777" name="Warcaster/Warlock attachments" hidden="false" collective="false" import="true" targetId="0051-722b-be45-97a7" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ac8a-ad62-0d2f-4610" name="Captain Dalin Sturgis" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="decrement" field="4490-cdb1-5704-8ea7" value="30.0"/>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="d74c-efb9-0e7b-b104" name="Warlock/Warcaster" hidden="false" targetId="2c8c-9345-8aba-e745" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="9b06-d797-a796-88ca" name="Warjack/Warbeast" hidden="false" collective="false" import="true" targetId="dcd4-5276-4c91-e16b" type="selectionEntry"/>
+        <entryLink id="e589-7c53-9fe4-fc34" name="Warcaster/Warlock attachments" hidden="false" collective="false" import="true" targetId="0051-722b-be45-97a7" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f2d4-91e4-b364-70ed" name="General Adept Nemo" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="decrement" field="4490-cdb1-5704-8ea7" value="26.0"/>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="2a69-a8b5-905a-21d8" name="Warlock/Warcaster" hidden="false" targetId="2c8c-9345-8aba-e745" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="489d-906f-395e-0248" name="Warjack/Warbeast" hidden="false" collective="false" import="true" targetId="dcd4-5276-4c91-e16b" type="selectionEntry"/>
+        <entryLink id="8618-12f2-4d52-ea76" name="Warcaster/Warlock attachments" hidden="false" collective="false" import="true" targetId="0051-722b-be45-97a7" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7135-fc38-e28e-440c" name="Lieutenant Allister Caine" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="decrement" field="4490-cdb1-5704-8ea7" value="30.0"/>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="a188-4791-ab3d-f4b1" name="Warlock/Warcaster" hidden="false" targetId="2c8c-9345-8aba-e745" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="ee55-655e-c1f1-ea87" name="Warjack/Warbeast" hidden="false" collective="false" import="true" targetId="dcd4-5276-4c91-e16b" type="selectionEntry"/>
+        <entryLink id="df4e-b24f-6933-7485" name="Warcaster/Warlock attachments" hidden="false" collective="false" import="true" targetId="0051-722b-be45-97a7" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="758b-930f-6272-151c" name="Lord Commander Stryker" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="decrement" field="4490-cdb1-5704-8ea7" value="28.0"/>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="9a42-e6ec-c391-5309" name="Warlock/Warcaster" hidden="false" targetId="2c8c-9345-8aba-e745" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="6280-46ed-e4f3-de5a" name="Warjack/Warbeast" hidden="false" collective="false" import="true" targetId="dcd4-5276-4c91-e16b" type="selectionEntry"/>
+        <entryLink id="9643-6725-5452-153e" name="Warcaster/Warlock attachments" hidden="false" collective="false" import="true" targetId="0051-722b-be45-97a7" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4ba5-188d-491a-801d" name="Lord General Coleman Stryker" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="decrement" field="4490-cdb1-5704-8ea7" value="28.0"/>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="8a4f-c181-e176-b486" name="Warlock/Warcaster" hidden="false" targetId="2c8c-9345-8aba-e745" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="02c4-8fad-8fd1-b955" name="Warjack/Warbeast" hidden="false" collective="false" import="true" targetId="dcd4-5276-4c91-e16b" type="selectionEntry"/>
+        <entryLink id="0625-2107-37d3-3f5a" name="Warcaster/Warlock attachments" hidden="false" collective="false" import="true" targetId="0051-722b-be45-97a7" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="506a-3794-ebd0-f87d" name="Major Beth Maddox" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="decrement" field="4490-cdb1-5704-8ea7" value="30.0"/>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="7eae-1e56-7086-ee6a" name="Warlock/Warcaster" hidden="false" targetId="2c8c-9345-8aba-e745" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="778a-6a5b-5168-c8fd" name="Warjack/Warbeast" hidden="false" collective="false" import="true" targetId="dcd4-5276-4c91-e16b" type="selectionEntry"/>
+        <entryLink id="c2a5-8274-934d-870f" name="Warcaster/Warlock attachments" hidden="false" collective="false" import="true" targetId="0051-722b-be45-97a7" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="18fe-f006-eaf7-c10a" name="Major Markus &quot;Siege&quot; Brisbane" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="decrement" field="4490-cdb1-5704-8ea7" value="28.0"/>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="0742-9ceb-c067-572c" name="Warlock/Warcaster" hidden="false" targetId="2c8c-9345-8aba-e745" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="a0c0-52ba-73bd-94d6" name="Warjack/Warbeast" hidden="false" collective="false" import="true" targetId="dcd4-5276-4c91-e16b" type="selectionEntry"/>
+        <entryLink id="32f4-a815-0cbb-b201" name="Warcaster/Warlock attachments" hidden="false" collective="false" import="true" targetId="0051-722b-be45-97a7" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0108-f689-3f06-0300" name="Major Victoria Haley" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="decrement" field="4490-cdb1-5704-8ea7" value="29.0"/>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="0a57-77ad-036d-9882" name="Warlock/Warcaster" hidden="false" targetId="2c8c-9345-8aba-e745" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="21aa-987c-bdd1-05b2" name="Warjack/Warbeast" hidden="false" collective="false" import="true" targetId="dcd4-5276-4c91-e16b" type="selectionEntry"/>
+        <entryLink id="69ff-56fb-501d-2326" name="Warcaster/Warlock attachments" hidden="false" collective="false" import="true" targetId="0051-722b-be45-97a7" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d0a5-c24c-95f7-3d33" name="Major Katherine Laddermore" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cbc0-fdea-adb6-9281" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="e7e1-dea7-bad7-bedd" name="Storm Division" hidden="false" targetId="42f3-3e97-1237-73d3" primary="false"/>
+        <categoryLink id="9e9b-3456-9e8a-8a97" name="New CategoryLink" hidden="false" targetId="f7c7-5df0-843d-8db1" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ba90-ceeb-6330-268e" name="Articifer Gener Nemo &amp; Storm Chaser Finch" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="decrement" field="4490-cdb1-5704-8ea7" value="27.0"/>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="a9ce-1490-90b0-5104" name="Warlock/Warcaster" hidden="false" targetId="2c8c-9345-8aba-e745" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="67fd-f796-cadd-de1d" name="Storm Chaser Finch" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="99cd-73f2-7eb9-dd6d" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="7590-52ef-6168-016b" name="Warjack/Warbeast" hidden="false" collective="false" import="true" targetId="dcd4-5276-4c91-e16b" type="selectionEntry"/>
+        <entryLink id="3503-034e-37ab-adfa" name="Warcaster/Warlock attachments" hidden="false" collective="false" import="true" targetId="0051-722b-be45-97a7" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9d47-2b07-18fb-c7e9" name="Captain E. Dominic Darius &amp; Halfjacks" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="decrement" field="4490-cdb1-5704-8ea7" value="29.0"/>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="789f-8800-91ff-19f0" name="Warlock/Warcaster" hidden="false" targetId="2c8c-9345-8aba-e745" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="2fbc-1fbb-3988-6fbd" name="Halfjacks" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="92ae-ed61-4c44-2286" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="45d8-f13e-1536-0739" name="Warjack/Warbeast" hidden="false" collective="false" import="true" targetId="dcd4-5276-4c91-e16b" type="selectionEntry"/>
+        <entryLink id="4d89-b9e9-7a5f-4449" name="Warcaster/Warlock attachments" hidden="false" collective="false" import="true" targetId="0051-722b-be45-97a7" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f67c-2e01-99cc-cedc" name="Colonel Markus &quot;Siege&quot; Brisbane" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="decrement" field="4490-cdb1-5704-8ea7" value="28.0"/>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="9501-77d1-18ca-1147" name="Warlock/Warcaster" hidden="false" targetId="2c8c-9345-8aba-e745" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="2b00-fcf7-eacf-29ef" name="Rocket Turret" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="560b-8346-edcd-4295" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="b15f-65a0-d7a5-c8a5" name="Warjack/Warbeast" hidden="false" collective="false" import="true" targetId="dcd4-5276-4c91-e16b" type="selectionEntry"/>
+        <entryLink id="dc14-8c89-8467-dfa4" name="Warcaster/Warlock attachments" hidden="false" collective="false" import="true" targetId="0051-722b-be45-97a7" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="12a4-d757-9f6b-8ff1" name="Major Prime Victoria Haley" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="decrement" field="4490-cdb1-5704-8ea7" value="27.0"/>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="2416-159d-9795-6638" name="Warlock/Warcaster" hidden="false" targetId="2c8c-9345-8aba-e745" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="89dd-6ce7-ebaa-8609" name="Warjack/Warbeast" hidden="false" collective="false" import="true" targetId="dcd4-5276-4c91-e16b" type="selectionEntry"/>
+        <entryLink id="abce-5477-c223-c82f" name="Warcaster/Warlock attachments" hidden="false" collective="false" import="true" targetId="0051-722b-be45-97a7" type="selectionEntry">
+          <selectionEntries>
+            <selectionEntry id="29ee-6970-dd41-ee74" name="Haley Future" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4c8e-bd5c-9ccb-e29a" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="91e0-241a-0b4a-0ecc" name="Haley Past" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="bf73-0e76-28a6-6ab8" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="84a1-583b-18b4-b863" name="Arcane Tempest Gun Mages" hidden="false" collective="false" import="true" type="unit">
+      <modifierGroups>
+        <modifierGroup>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d22a-9283-3629-cb33" type="equalTo"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d909-5a08-bad0-9406" type="equalTo"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e9e2-4888-17a0-6562" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <constraints>
+        <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa81-c8cc-6410-0934" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="18a9-84f6-80dd-294e" name="Unit" hidden="false" targetId="ab0d-9ec7-c53b-9de3" primary="true"/>
+        <categoryLink id="00ab-ddde-1346-0721" name="Sons of the Tempest" hidden="false" targetId="ff2a-6b57-ccb4-14ba" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="9893-37fd-a247-aea9" name="Arcane Tempest Gun Mage Officer" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fd06-e60a-f8b4-5fe0" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="e0ca-8497-1ea7-b348" name="Sons of the Tempest" hidden="false" targetId="ff2a-6b57-ccb4-14ba" primary="false"/>
+          </categoryLinks>
+          <entryLinks>
+            <entryLink id="fbc6-1103-b849-c9db" name="Theme Requisition" hidden="false" collective="false" import="true" targetId="5ad9-f2d7-26e8-d21e" type="selectionEntry"/>
+          </entryLinks>
+          <costs>
+            <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="3.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="9.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d14e-8fc6-df47-084e" name="Black 13th Strike Force" hidden="false" collective="false" import="true" type="unit">
+      <modifierGroups>
+        <modifierGroup>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d22a-9283-3629-cb33" type="equalTo"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d909-5a08-bad0-9406" type="equalTo"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e9e2-4888-17a0-6562" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4ab5-9347-c32e-2e46" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="36f7-00a5-5073-5837" name="Unit" hidden="false" targetId="ab0d-9ec7-c53b-9de3" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="7.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8c38-4f71-dbbf-786e" name="Captain Jonas Murdoch - THEMES!! &amp; UNITS" hidden="false" collective="false" import="true" type="upgrade">
+      <modifierGroups>
+        <modifierGroup>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d22a-9283-3629-cb33" type="equalTo"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d909-5a08-bad0-9406" type="equalTo"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e9e2-4888-17a0-6562" type="equalTo"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1aa9-c98d-435a-e632" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2739-9e2c-417d-46cc" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3491-d354-7d63-c9f0" name="Field Mechaniks" hidden="false" collective="false" import="true" type="unit">
+      <modifierGroups>
+        <modifierGroup>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e9e2-4888-17a0-6562" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <constraints>
+        <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2d4e-5e73-eabd-bbfb" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="83e2-df72-af49-0225" name="Unit" hidden="false" targetId="ab0d-9ec7-c53b-9de3" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="64fc-4108-335c-6a6a" name="Weapon" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="40ac-c2e4-521b-813b" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="3.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="d81b-3ce9-85de-e5c6" name="Officer Attach" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe52-2a05-be11-c068" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="3.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="07b0-72c7-7e1f-c3fb" name="Unit Size" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="64c8-fdd5-7b66-89d0" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c7ed-035b-ba07-9fb1" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="b9b7-482e-6900-6992" name="Minimum Unit" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="2.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="bdb3-4ab6-ac86-0b7a" name="Maximum Unit" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="4.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4675-1e23-8d44-16af" name="Long Gunner Infantry" hidden="false" collective="false" import="true" type="unit">
+      <modifierGroups>
+        <modifierGroup>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d22a-9283-3629-cb33" type="equalTo"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e9e2-4888-17a0-6562" type="equalTo"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1aa9-c98d-435a-e632" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <constraints>
+        <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3480-04f0-4368-3c84" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="8760-aa13-a038-04a4" name="Unit" hidden="false" targetId="ab0d-9ec7-c53b-9de3" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="f22e-8a42-501e-bae7" name="Long Gunner Infantry Officer &amp; Standard" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0489-8917-af2a-8155" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="4.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="e64d-0f25-f268-8885" name="Unit Size" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ac8a-9837-8037-f435" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ba24-dc4b-2398-9d4e" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="5ffa-482f-93b6-b200" name="Minimum Unit" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="8.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="193d-dbf1-f970-de50" name="Maximum Unit" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="13.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e9ec-1869-7735-1ec4" name="Rangers" hidden="false" collective="false" import="true" type="unit">
+      <modifierGroups>
+        <modifierGroup>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d22a-9283-3629-cb33" type="equalTo"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d909-5a08-bad0-9406" type="equalTo"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1aa9-c98d-435a-e632" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <constraints>
+        <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="272c-2a57-92a6-be76" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="0980-db80-852b-e87f" name="Unit" hidden="false" targetId="ab0d-9ec7-c53b-9de3" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="7.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3c53-5c27-a52d-7de0" name="Silver Line Stormguard - W&amp;A" hidden="false" collective="false" import="true" type="unit">
+      <modifierGroups>
+        <modifierGroup>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d909-5a08-bad0-9406" type="equalTo"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e9e2-4888-17a0-6562" type="equalTo"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1aa9-c98d-435a-e632" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <constraints>
+        <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2138-a9f5-6fad-875b" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="5362-a941-f458-6c76" name="Unit" hidden="false" targetId="ab0d-9ec7-c53b-9de3" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="f28d-7e36-6201-bafb" name="Weapon" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cbfe-fc72-512e-cce5" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="3.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="2235-0cd6-3b30-7b33" name="Officer Attach" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4eb0-63de-d73b-49f0" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="3.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="78bb-0a3f-3c83-332e" name="Unit Size" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="70fc-a0b0-8ac4-c54d" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dc15-1891-dd38-e133" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="c91f-2e33-8257-b8a5" name="Minimum Unit" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="9.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="fffc-e27c-e434-52cb" name="Maximum Unit" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="15.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="38bd-a18c-74b6-8e8f" name="Storm Lancer" hidden="false" collective="false" import="true" type="unit">
+      <modifierGroups>
+        <modifierGroup>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d909-5a08-bad0-9406" type="equalTo"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e9e2-4888-17a0-6562" type="equalTo"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1aa9-c98d-435a-e632" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <constraints>
+        <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d607-9645-fdf8-76c8" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="097e-c838-4cd1-84e8" name="Unit" hidden="false" targetId="ab0d-9ec7-c53b-9de3" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="12be-6681-4618-a647" name="Unit Size" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0c93-85f0-451a-1bc2" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a89a-084e-d64e-9989" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="3f4b-0e7c-da1e-66ea" name="Minimum Unit" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="11.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="be03-41c6-aa28-11f6" name="Maximum Unit" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="18.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5ec5-fd9c-e611-9f79" name="Stormblade Infantry" hidden="false" collective="false" import="true" type="unit">
+      <modifierGroups>
+        <modifierGroup>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d909-5a08-bad0-9406" type="equalTo"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e9e2-4888-17a0-6562" type="equalTo"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1aa9-c98d-435a-e632" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <constraints>
+        <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5b19-7d57-0efa-e34e" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="2f73-7768-75cc-c89e" name="Unit" hidden="false" targetId="ab0d-9ec7-c53b-9de3" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="8b1b-26a9-bb34-a783" name="Stormblade Infantry Stromgunner" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7906-fc74-a4e7-eb8b" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="2.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="b5f3-36f4-4a0f-a310" name="Stormblade Infantry Officer &amp; Standard" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="28a1-86a8-33c0-1463" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="5.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="9.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a194-96f8-f099-0560" name="Stormguard Infantry" hidden="false" collective="false" import="true" type="unit">
+      <modifierGroups>
+        <modifierGroup>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d909-5a08-bad0-9406" type="equalTo"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e9e2-4888-17a0-6562" type="equalTo"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1aa9-c98d-435a-e632" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <constraints>
+        <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0a10-e191-6a6c-dc71" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="c68d-216b-19bb-0eea" name="Unit" hidden="false" targetId="ab0d-9ec7-c53b-9de3" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="98d0-c634-6f5f-9085" name="Unit Size" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="91d0-4b70-f34c-e987" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e9e-d70c-292e-e4bc" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="c202-657a-775e-07e5" name="Minimum Unit" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="9.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="1f75-edd8-c2ae-5150" name="Maximum Unit" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="15.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="be1f-03d0-338c-f4eb" name="Stormsmith Grenadiers" hidden="false" collective="false" import="true" type="unit">
+      <modifierGroups>
+        <modifierGroup>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d909-5a08-bad0-9406" type="equalTo"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e9e2-4888-17a0-6562" type="equalTo"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1aa9-c98d-435a-e632" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <constraints>
+        <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="893d-49d8-6432-6ca3" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="05fe-2781-f43e-8a01" name="Unit" hidden="false" targetId="ab0d-9ec7-c53b-9de3" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5794-c3f2-fa1a-4f2b" name="Stormsmith Storm Tower" hidden="false" collective="false" import="true" type="unit">
+      <modifierGroups>
+        <modifierGroup>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d909-5a08-bad0-9406" type="equalTo"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e9e2-4888-17a0-6562" type="equalTo"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1aa9-c98d-435a-e632" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <constraints>
+        <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="498d-8c22-26c5-b63c" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="6bcb-a94b-09e5-e89c" name="Unit" hidden="false" targetId="ab0d-9ec7-c53b-9de3" primary="true"/>
+        <categoryLink id="7901-8a07-c9d1-cbee" name="Storm Division" hidden="false" targetId="42f3-3e97-1237-73d3" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="4.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="08fa-3565-5945-067f" name="Sword Knights" hidden="false" collective="false" import="true" type="unit">
+      <modifierGroups>
+        <modifierGroup>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d22a-9283-3629-cb33" type="equalTo"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d909-5a08-bad0-9406" type="equalTo"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e9e2-4888-17a0-6562" type="equalTo"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1aa9-c98d-435a-e632" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <constraints>
+        <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="256f-5c2c-e0c8-49d9" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="e018-fd6f-bb21-2cf5" name="Unit" hidden="false" targetId="ab0d-9ec7-c53b-9de3" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="bd7f-5936-e7a7-08cf" name="Sword Knight Officer &amp; Standard" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1d58-7807-ab16-f8db" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="3.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="bf7c-a6c8-56f4-2dc2" name="Unit Size" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="14d0-ec8b-9b66-761f" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0767-9aad-80a8-2138" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="e7cf-e732-1a8a-962d" name="Minimum Unit" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="7.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="5b25-46e5-f25a-2cce" name="Maximum Unit" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="12.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2868-31ed-080d-399e" name="Tempest Blazers" hidden="false" collective="false" import="true" type="unit">
+      <modifierGroups>
+        <modifierGroup>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d22a-9283-3629-cb33" type="equalTo"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e9e2-4888-17a0-6562" type="equalTo"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d909-5a08-bad0-9406" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <constraints>
+        <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f2e-c542-10ef-0e67" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="01bb-741e-9949-65b3" name="Unit" hidden="false" targetId="ab0d-9ec7-c53b-9de3" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="7d68-2434-11bf-bd9f" name="Unit Size" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="06ea-14c5-bae6-fa94" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b3c-5915-c454-c822" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="b44c-9812-3488-85cc" name="Minimum Unit" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="8d85-2a15-d587-6409" name="Maximum Unit" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="16.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e3f4-1916-f6e9-0ac3" name="Trencher Cannon Crew" hidden="false" collective="false" import="true" type="unit">
+      <modifierGroups>
+        <modifierGroup>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d22a-9283-3629-cb33" type="equalTo"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1aa9-c98d-435a-e632" type="equalTo"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d909-5a08-bad0-9406" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <constraints>
+        <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c922-6910-c395-d1f2" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="b3d0-d7d7-0348-d10a" name="Unit" hidden="false" targetId="ab0d-9ec7-c53b-9de3" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="4.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bcbf-bf67-c3d6-2b1e" name="Trencher Chain Gun Crew" hidden="false" collective="false" import="true" type="unit">
+      <modifierGroups>
+        <modifierGroup>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d22a-9283-3629-cb33" type="equalTo"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1aa9-c98d-435a-e632" type="equalTo"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d909-5a08-bad0-9406" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <constraints>
+        <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a0f5-c3c5-f836-17cf" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="ee5e-3aca-3782-25a5" name="Unit" hidden="false" targetId="ab0d-9ec7-c53b-9de3" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="90ee-feb1-0d13-77e6" name="Trencher Combat Engineers" hidden="false" collective="false" import="true" type="unit">
+      <modifierGroups>
+        <modifierGroup>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d22a-9283-3629-cb33" type="equalTo"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1aa9-c98d-435a-e632" type="equalTo"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d909-5a08-bad0-9406" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <constraints>
+        <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d03-a195-7163-2cce" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="283b-c5be-9906-7eec" name="Unit" hidden="false" targetId="ab0d-9ec7-c53b-9de3" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="4.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a1a5-fbb9-26f0-3e0a" name="Trencher Commandos" hidden="false" collective="false" import="true" type="unit">
+      <modifierGroups>
+        <modifierGroup>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d22a-9283-3629-cb33" type="equalTo"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1aa9-c98d-435a-e632" type="equalTo"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d909-5a08-bad0-9406" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <constraints>
+        <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0a24-d9b2-428d-2764" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="9dbb-8561-ad71-3eed" name="Unit" hidden="false" targetId="ab0d-9ec7-c53b-9de3" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="025d-816b-739c-b57d" name="Trencher Commando Scattergunner" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5884-4967-4518-d629" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="1.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="43bc-4d77-fa7f-cdc4" name="Trencher Commando Officer" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0e49-70bd-702b-7ee0" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="945b-91f2-2968-4c17" name="Theme Requisition" hidden="false" collective="false" import="true" targetId="5ad9-f2d7-26e8-d21e" type="selectionEntry"/>
+          </entryLinks>
+          <costs>
+            <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="3.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="92fb-efa0-a677-0632" name="Unit Size" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="89fd-878b-d047-84cf" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b070-7efb-af78-ffbe" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="c815-8b2e-13f1-4933" name="Minimum Unit" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="8.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="31d6-9447-3d12-7d2e" name="Maximum Unit" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="13.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="94a9-7d54-ed5d-2802" name="Trencher Express Crew" hidden="false" collective="false" import="true" type="unit">
+      <modifierGroups>
+        <modifierGroup>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d22a-9283-3629-cb33" type="equalTo"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1aa9-c98d-435a-e632" type="equalTo"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d909-5a08-bad0-9406" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <constraints>
+        <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b342-fa31-09e7-1efc" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="494b-7c21-7792-5482" name="Unit" hidden="false" targetId="ab0d-9ec7-c53b-9de3" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c604-9a7a-7a93-52a6" name="Trencher Infantry" hidden="false" collective="false" import="true" type="unit">
+      <modifierGroups>
+        <modifierGroup>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d22a-9283-3629-cb33" type="equalTo"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1aa9-c98d-435a-e632" type="equalTo"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d909-5a08-bad0-9406" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <categoryLinks>
+        <categoryLink id="28c1-8184-30df-2d52" name="Unit" hidden="false" targetId="ab0d-9ec7-c53b-9de3" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="efa6-9d9b-50a3-26e9" name="Trencher Infantry Rifle Grenadier" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c000-84b1-1549-407b" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="2.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="10fa-6ee6-65b9-c891" name="Trencher Infantry Officer &amp; Sniper" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eeb8-597f-e8ef-4103" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="de80-5086-e000-34b3" name="Theme Requisition" hidden="false" collective="false" import="true" targetId="5ad9-f2d7-26e8-d21e" type="selectionEntry"/>
+          </entryLinks>
+          <costs>
+            <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="3.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="6fa7-7f83-644a-7f5d" name="Unit Size" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aba5-3190-2d54-369b" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dffb-e5f4-5aa7-0137" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="bbef-06fe-7619-8903" name="Minimum Unit" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="9.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="4fcf-5919-3996-41d8" name="Maximum Unit" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="14.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="94b1-9857-8b9e-109f" name="Trencher Long Gunners" hidden="false" collective="false" import="true" type="unit">
+      <modifierGroups>
+        <modifierGroup>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d22a-9283-3629-cb33" type="equalTo"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1aa9-c98d-435a-e632" type="equalTo"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d909-5a08-bad0-9406" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <constraints>
+        <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="07b0-ef43-8706-6536" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="ebdd-7ad8-57d9-342f" name="Unit" hidden="false" targetId="ab0d-9ec7-c53b-9de3" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="d92d-86ba-f25c-1d41" name="Trencher Long Gunner Officer" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7ed6-4e26-4fd7-2125" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="6c35-8236-c6ae-97ec" name="Theme Requisition" hidden="false" collective="false" import="true" targetId="5ad9-f2d7-26e8-d21e" type="selectionEntry"/>
+          </entryLinks>
+          <costs>
+            <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="3.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="2912-7cae-4f03-604d" name="Unit Size" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="196d-069b-ffba-f61b" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2b0b-584f-ec9c-6ba5" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="e555-e200-78f1-6076" name="Minimum Unit" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="9.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="8fa6-f6dc-7ccf-a8da" name="Maximum Unit" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="15.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7b0d-c088-fef9-6ab7" name="Trencher Blockhouse" hidden="false" collective="false" import="true" type="upgrade">
+      <modifierGroups>
+        <modifierGroup>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d22a-9283-3629-cb33" type="equalTo"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d909-5a08-bad0-9406" type="equalTo"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1aa9-c98d-435a-e632" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <constraints>
+        <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="72e7-6e28-7558-f015" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="900e-45cb-4f2f-fbae" name="Battle Engine" hidden="false" targetId="f1df-79ff-5215-b16d" primary="true"/>
+        <categoryLink id="d402-d3b4-89cc-ab6c" name="Grave Diggers" hidden="false" targetId="b78f-5e48-8c5b-aad0" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="17.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a486-8e04-ac6d-910e" name="Storm Striker" hidden="false" collective="false" import="true" type="unit">
+      <modifierGroups>
+        <modifierGroup>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e9e2-4888-17a0-6562" type="equalTo"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1aa9-c98d-435a-e632" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <constraints>
+        <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ca5b-3962-3126-374b" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="17.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0367-1cff-2c07-9e51" name="Trencher Master Wargunner" hidden="false" collective="false" import="true" type="model">
+      <modifierGroups>
+        <modifierGroup>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d22a-9283-3629-cb33" type="equalTo"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d909-5a08-bad0-9406" type="equalTo"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1aa9-c98d-435a-e632" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <constraints>
+        <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="3b71-a18c-087d-d52e" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="aef4-c757-feee-169f" name="Warjack/Warbeast" hidden="false" collective="false" import="true" targetId="dcd4-5276-4c91-e16b" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a9c3-2510-ae10-2a16" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="20f3-c227-84ad-b38f" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0860-8a2d-2286-622a" name="Trencher Warcaster Lieutenant" hidden="false" collective="false" import="true" type="model">
+      <modifierGroups>
+        <modifierGroup>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d22a-9283-3629-cb33" type="equalTo"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d909-5a08-bad0-9406" type="equalTo"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1aa9-c98d-435a-e632" type="equalTo"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d909-5a08-bad0-9406" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c638-b8e4-5727-3593" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="b265-62be-86a7-f440" name="Warjack/Warbeast" hidden="false" collective="false" import="true" targetId="dcd4-5276-4c91-e16b" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="27aa-3577-153b-dc60" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ebe6-76ae-1cfc-2693" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="da63-fa39-25c2-c430" name="Trencher Warcaster Lieutenant" hidden="false" collective="false" import="true" type="model">
+      <modifierGroups>
+        <modifierGroup>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d22a-9283-3629-cb33" type="equalTo"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d909-5a08-bad0-9406" type="equalTo"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1aa9-c98d-435a-e632" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="974b-93c0-271b-6f98" type="min"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b01c-96bc-5f78-1a11" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="7fe1-7f29-4e4a-fdb3" name="Warjack/Warbeast" hidden="false" collective="false" import="true" targetId="dcd4-5276-4c91-e16b" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c3f6-a475-dcc3-e178" name="Trench Buster" hidden="false" collective="false" import="true" type="model">
+      <modifierGroups>
+        <modifierGroup>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d22a-9283-3629-cb33" type="equalTo"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d909-5a08-bad0-9406" type="equalTo"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1aa9-c98d-435a-e632" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <constraints>
+        <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f2a4-2997-7849-7ea1" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2597-7e05-d423-8308" name="Stormsmith Stormcaller" hidden="false" collective="false" import="true" type="model">
+      <modifierGroups>
+        <modifierGroup>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d909-5a08-bad0-9406" type="equalTo"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e9e2-4888-17a0-6562" type="equalTo"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1aa9-c98d-435a-e632" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <constraints>
+        <constraint field="selections" scope="force" value="9.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="a9b1-1567-db4a-d206" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c93a-4320-5e26-7500" name="Stormblade Captain" hidden="false" collective="false" import="true" type="model">
+      <modifierGroups>
+        <modifierGroup>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d909-5a08-bad0-9406" type="equalTo"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e9e2-4888-17a0-6562" type="equalTo"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1aa9-c98d-435a-e632" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <constraints>
+        <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c6d9-8343-741b-71dd" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="66bf-3f48-cad8-d114" name="New CategoryLink" hidden="false" targetId="f7c7-5df0-843d-8db1" primary="true"/>
+        <categoryLink id="59af-7ef0-d6f8-c5e9" name="Storm Division" hidden="false" targetId="42f3-3e97-1237-73d3" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="b90b-29db-468d-6c72" name="Warjack/Warbeast" hidden="false" collective="false" import="true" targetId="dcd4-5276-4c91-e16b" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4cd3-66a7-20ac-ac94" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ca03-cb2d-568c-4edb" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="4.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e690-41a1-1050-f6b8" name="Sir Dreyfus the Storm Knight" hidden="false" collective="false" import="true" type="model">
+      <modifierGroups>
+        <modifierGroup>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d909-5a08-bad0-9406" type="equalTo"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e9e2-4888-17a0-6562" type="equalTo"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1aa9-c98d-435a-e632" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5fad-c42f-83ef-76a6" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="6d9d-8e51-e025-6b7c" name="New CategoryLink" hidden="false" targetId="f7c7-5df0-843d-8db1" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8adf-86be-64b9-5a8a" name="Patrol Dog" hidden="false" collective="false" import="true" type="model">
+      <modifierGroups>
+        <modifierGroup>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d22a-9283-3629-cb33" type="equalTo"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d909-5a08-bad0-9406" type="equalTo"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1aa9-c98d-435a-e632" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <constraints>
+        <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="008f-5087-a7e7-52d5" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="aeac-74a3-0338-9886" name="New CategoryLink" hidden="false" targetId="f7c7-5df0-843d-8db1" primary="true"/>
+        <categoryLink id="7dc4-d64e-3bb7-bfbb" name="Grave Diggers" hidden="false" targetId="b78f-5e48-8c5b-aad0" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7d0c-163a-80b4-f076" name="Lieutenant Gwen Keller" hidden="false" collective="false" import="true" type="model">
+      <modifierGroups>
+        <modifierGroup>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d909-5a08-bad0-9406" type="equalTo"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e9e2-4888-17a0-6562" type="equalTo"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1aa9-c98d-435a-e632" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5ba7-96bd-5c19-601c" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="c80b-b954-d612-f95c" name="New CategoryLink" hidden="false" targetId="f7c7-5df0-843d-8db1" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="aad0-4c07-037b-5415" name="Lieutenant Baskin Falk" hidden="false" collective="false" import="true" type="model">
+      <modifierGroups>
+        <modifierGroup>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d909-5a08-bad0-9406" type="equalTo"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e9e2-4888-17a0-6562" type="equalTo"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d22a-9283-3629-cb33" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2d41-69ab-e792-1be3" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="ee19-d337-edd7-a002" name="New CategoryLink" hidden="false" targetId="f7c7-5df0-843d-8db1" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b9ce-e02a-fd5b-c1cf" name="Lieutenant Allison Jakes" hidden="false" collective="false" import="true" type="model">
+      <modifierGroups>
+        <modifierGroup>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e9e2-4888-17a0-6562" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="fe62-012a-faff-c368" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="16cb-b82f-78a3-7d29" name="New CategoryLink" hidden="false" targetId="f7c7-5df0-843d-8db1" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="4.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="660e-35a1-cc77-5a3a" name="Journeyman Warcaster" hidden="false" collective="false" import="true" type="model">
+      <modifierGroups>
+        <modifierGroup>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e9e2-4888-17a0-6562" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2847-275b-2150-b924" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="5e7c-f695-87d3-311c" name="New CategoryLink" hidden="false" targetId="f7c7-5df0-843d-8db1" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="6b35-c994-3456-fe14" name="Warjack/Warbeast" hidden="false" collective="false" import="true" targetId="dcd4-5276-4c91-e16b" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c8f2-d03b-6f32-f0f6" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="02e1-be14-581d-d60e" name="Journeyman Lieutenant Allister Caine" hidden="false" collective="false" import="true" type="model">
+      <modifierGroups>
+        <modifierGroup>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e9e2-4888-17a0-6562" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0939-08d3-b144-fe55" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="4720-9be5-0e53-ae08" name="New CategoryLink" hidden="false" targetId="f7c7-5df0-843d-8db1" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="85b5-bc94-6ff0-0fa0" name="Warjack/Warbeast" hidden="false" collective="false" import="true" targetId="dcd4-5276-4c91-e16b" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="448a-5f96-26bc-c129" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="4.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="315d-4c67-50ce-26ea" name="Gun Mage Captain Adept" hidden="false" collective="false" import="true" type="model">
+      <modifierGroups>
+        <modifierGroup>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d22a-9283-3629-cb33" type="equalTo"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d909-5a08-bad0-9406" type="equalTo"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e9e2-4888-17a0-6562" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <constraints>
+        <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="297a-63a2-20da-4e64" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="4bdc-252f-cbd0-20b2" name="New CategoryLink" hidden="false" targetId="f7c7-5df0-843d-8db1" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="4.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7f88-47d6-75d7-d132" name="Commander Anson Hitch" hidden="false" collective="false" import="true" type="model">
+      <modifierGroups>
+        <modifierGroup>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d22a-9283-3629-cb33" type="equalTo"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d909-5a08-bad0-9406" type="equalTo"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1aa9-c98d-435a-e632" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="46de-702d-791d-fda0" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="b73a-2b96-d754-8036" name="Warjack/Warbeast" hidden="false" collective="false" import="true" targetId="dcd4-5276-4c91-e16b" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="13cc-180d-b139-e91e" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d7dc-c08f-da0b-4f88" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8728-1a38-b87d-8283" name="Captain Maxwell Finn" hidden="false" collective="false" import="true" type="model">
+      <modifierGroups>
+        <modifierGroup>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d22a-9283-3629-cb33" type="equalTo"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d909-5a08-bad0-9406" type="equalTo"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1aa9-c98d-435a-e632" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="cc65-74b4-b889-b64c" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="14eb-6ac4-b116-6ec3" name="New CategoryLink" hidden="false" targetId="f7c7-5df0-843d-8db1" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="66eb-1284-2a49-62f9" name="Captain Arlan Strangewaves" hidden="false" collective="false" import="true" type="model">
+      <modifierGroups>
+        <modifierGroup>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e9e2-4888-17a0-6562" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="fc2e-9245-45e3-62eb" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="ac98-c873-3ae4-9cb6" name="New CategoryLink" hidden="false" targetId="f7c7-5df0-843d-8db1" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="afad-e301-ce2f-5758" name="Warjack/Warbeast" hidden="false" collective="false" import="true" targetId="dcd4-5276-4c91-e16b" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6761-0e83-4a39-6713" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d73b-921a-d393-3c83" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="4.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ed38-b386-013e-be76" name="Archduke Alain Runewood, Lord of Fharin" hidden="false" collective="false" import="true" type="model">
+      <modifierGroups>
+        <modifierGroup>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d22a-9283-3629-cb33" type="equalTo"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1aa9-c98d-435a-e632" type="equalTo"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e9e2-4888-17a0-6562" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="07a7-2320-04ff-8688" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="4fb5-cb43-f624-65f7" name="Warjack/Warbeast" hidden="false" collective="false" import="true" targetId="dcd4-5276-4c91-e16b" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="de1f-403b-b760-ab4c" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a136-2a2e-83b8-b6d4" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="4.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="db58-1898-cbc1-703f" name="Arcane Tempest Rifleman" hidden="false" collective="false" import="true" type="model">
+      <modifierGroups>
+        <modifierGroup>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d22a-9283-3629-cb33" type="equalTo"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d909-5a08-bad0-9406" type="equalTo"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e9e2-4888-17a0-6562" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <constraints>
+        <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f5ca-c484-4e15-4fde" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="f91b-efc2-84ec-3310" name="New CategoryLink" hidden="false" targetId="f7c7-5df0-843d-8db1" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="3.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <sharedSelectionEntries>
+    <selectionEntry id="0051-722b-be45-97a7" name="Warcaster/Warlock attachments" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4ea4-c0dc-a1ae-2183" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="efe9-3526-110f-27ae" name="Squire" hidden="false" collective="false" import="true" type="model">
+          <modifierGroups>
+            <modifierGroup>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e9e2-4888-17a0-6562" type="equalTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+            </modifierGroup>
+          </modifierGroups>
+          <constraints>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="716a-72b0-94f2-e909" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="aaa8-9e69-cced-a2fd" name="New CategoryLink" hidden="false" targetId="f7c7-5df0-843d-8db1" primary="true"/>
+          </categoryLinks>
+          <costs>
+            <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="4.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="dcd4-5276-4c91-e16b" name="Warjack/Warbeast" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="85b0-96fa-3f07-f413" type="min"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="1458-d5ea-a978-12d3" name="Hurricane" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c5cb-8d41-6d77-565e" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="5252-2c21-c279-424b" name="Warjack/Warbeast" hidden="false" targetId="8bb5-6ce9-7bb9-f76c" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="33.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="21a1-e806-30ed-df40" name="Avenger" hidden="false" collective="false" import="true" type="model">
+          <categoryLinks>
+            <categoryLink id="e663-136e-cc64-0166" name="Warjack/Warbeast" hidden="false" targetId="8bb5-6ce9-7bb9-f76c" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="15.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="1112-56bb-8771-fd98" name="Lancer" hidden="false" collective="false" import="true" type="model">
+          <categoryLinks>
+            <categoryLink id="28d0-25aa-2ec6-2fc3" name="Warjack/Warbeast" hidden="false" targetId="8bb5-6ce9-7bb9-f76c" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="10.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="474b-089e-96f1-0e19" name="Brickhouse" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e58d-35f0-03a3-428d" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="f342-8bb1-a472-b463" name="Warjack/Warbeast" hidden="false" targetId="8bb5-6ce9-7bb9-f76c" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="16.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="e4ea-ec6f-b492-9f5b" name="Defender" hidden="false" collective="false" import="true" type="model">
+          <categoryLinks>
+            <categoryLink id="2c77-1cc7-fc2b-a909" name="Warjack/Warbeast" hidden="false" targetId="8bb5-6ce9-7bb9-f76c" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="14.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="158f-eddb-7206-5aa6" name="Stormwall" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fba8-7ac9-921b-6410" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="afe7-ea1f-9859-b117" name="Warjack/Warbeast" hidden="false" targetId="8bb5-6ce9-7bb9-f76c" primary="false"/>
+          </categoryLinks>
+          <selectionEntries>
+            <selectionEntry id="9bbc-81e9-6126-7e50" name="Lightning Pod" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <costs>
+            <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="34.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="12bc-f8a9-57da-96e0" name="Charger" hidden="false" collective="false" import="true" type="model">
+          <categoryLinks>
+            <categoryLink id="5995-ce2b-b462-7a29" name="Warjack/Warbeast" hidden="false" targetId="8bb5-6ce9-7bb9-f76c" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="9.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="0c6b-74e6-4da6-597a" name="Cyclone" hidden="false" collective="false" import="true" type="model">
+          <categoryLinks>
+            <categoryLink id="5ca2-6e7f-c744-e99a" name="Warjack/Warbeast" hidden="false" targetId="8bb5-6ce9-7bb9-f76c" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="12.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="2eb2-e4c8-e554-dabc" name="Centurion" hidden="false" collective="false" import="true" type="model">
+          <categoryLinks>
+            <categoryLink id="ed49-2ef6-004f-be78" name="Warjack/Warbeast" hidden="false" targetId="8bb5-6ce9-7bb9-f76c" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="16.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="0daa-b747-d590-9719" name="Dynamo" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cf5f-aa24-b097-50df" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="0055-ce76-13fb-799a" name="Warjack/Warbeast" hidden="false" targetId="8bb5-6ce9-7bb9-f76c" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="16.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="01ae-3637-f38f-a5b9" name="Firefly" hidden="false" collective="false" import="true" type="model">
+          <categoryLinks>
+            <categoryLink id="2a1c-e07d-f4c0-8240" name="Warjack/Warbeast" hidden="false" targetId="8bb5-6ce9-7bb9-f76c" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="7.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="db51-c415-a735-dd54" name="Grenadier" hidden="false" collective="false" import="true" type="model">
+          <categoryLinks>
+            <categoryLink id="4483-1b20-325f-3688" name="Warjack/Warbeast" hidden="false" targetId="8bb5-6ce9-7bb9-f76c" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="9.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="22c6-bfe5-1d26-3ebd" name="Hammersmith" hidden="false" collective="false" import="true" type="model">
+          <categoryLinks>
+            <categoryLink id="364e-c8de-45e2-5272" name="Warjack/Warbeast" hidden="false" targetId="8bb5-6ce9-7bb9-f76c" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="12.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="f81d-2ae2-e5c8-9361" name="Hunter" hidden="false" collective="false" import="true" type="model">
+          <categoryLinks>
+            <categoryLink id="e6c6-eced-5ef0-e153" name="Warjack/Warbeast" hidden="false" targetId="8bb5-6ce9-7bb9-f76c" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="16.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="1b89-5e9c-db46-ab3f" name="Ironclad" hidden="false" collective="false" import="true" type="model">
+          <categoryLinks>
+            <categoryLink id="02e1-1981-c7c0-11fc" name="Warjack/Warbeast" hidden="false" targetId="8bb5-6ce9-7bb9-f76c" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="12.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="38a4-b0f9-5ff0-e264" name="Thorn" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2941-ae22-e539-1773" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="4898-365e-a3e1-f79f" name="Warjack/Warbeast" hidden="false" targetId="8bb5-6ce9-7bb9-f76c" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="11.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="cb09-b29b-7d3a-3854" name="Minuteman" hidden="false" collective="false" import="true" type="model">
+          <categoryLinks>
+            <categoryLink id="afd6-6db0-574e-cdc3" name="Warjack/Warbeast" hidden="false" targetId="8bb5-6ce9-7bb9-f76c" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="8.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="c972-5ea5-3584-cfb2" name="Stormclad" hidden="false" collective="false" import="true" type="model">
+          <categoryLinks>
+            <categoryLink id="d3f9-9f53-b778-a02d" name="Warjack/Warbeast" hidden="false" targetId="8bb5-6ce9-7bb9-f76c" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="17.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="8bdd-0229-336b-b93d" name="Ol&apos;Rowdy" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d38a-5bf6-6fbb-a697" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="63e9-369d-c70e-d17a" name="Warjack/Warbeast" hidden="false" targetId="8bb5-6ce9-7bb9-f76c" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="17.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="f198-7145-593e-d74b" name="Reliant" hidden="false" collective="false" import="true" type="model">
+          <categoryLinks>
+            <categoryLink id="f6c3-f01f-23ba-154a" name="Warjack/Warbeast" hidden="false" targetId="8bb5-6ce9-7bb9-f76c" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="13.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="7160-023d-6508-4ac3" name="Sentinel" hidden="false" collective="false" import="true" type="model">
+          <categoryLinks>
+            <categoryLink id="1d1b-20a0-535c-673b" name="Warjack/Warbeast" hidden="false" targetId="8bb5-6ce9-7bb9-f76c" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="7.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="f838-c1af-7d94-9bda" name="*warjack template" hidden="false" collective="false" import="true" type="model">
+          <categoryLinks>
+            <categoryLink id="ef93-cb0f-141c-39bf" name="Warjack/Warbeast" hidden="false" targetId="8bb5-6ce9-7bb9-f76c" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="15.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="3f38-480a-5b96-e3a6" name="Thunderhead" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f0cc-f673-f324-b9a8" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="0825-5e53-1b17-d83c" name="Warjack/Warbeast" hidden="false" targetId="8bb5-6ce9-7bb9-f76c" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="18.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="5a92-ac8b-c8b0-5d02" name="Ace" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c09-8230-3017-f2de" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="ef64-7225-59cb-1d4e" name="Warjack/Warbeast" hidden="false" targetId="8bb5-6ce9-7bb9-f76c" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="10.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="01fc-5853-1be5-6f6a" name="Triumph" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a7ca-f245-64de-0763" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="d9b5-cc49-9c2e-ea6c" name="Warjack/Warbeast" hidden="false" targetId="8bb5-6ce9-7bb9-f76c" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="16.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Pts" typeId="4490-cdb1-5704-8ea7" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+</catalogue>
